@@ -60,5 +60,6 @@ public class GridMovement : MonoBehaviour
     public void Fall()
     {
         GravityActive = true;
+        body.simulated = true;
     }
 }
