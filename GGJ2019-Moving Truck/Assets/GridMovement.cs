@@ -25,7 +25,6 @@ public class GridMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         body.gravityScale = 0f;//disable unity's control of gravity
         body.freezeRotation = true;//don't let teh physics system rotate things when they collide
-        //body.simulated = false;//wait until we are told to fall
 
         col = GetComponent<BoxCollider2D>();
         col.isTrigger = true;
@@ -65,8 +64,7 @@ public class GridMovement : MonoBehaviour
 
     public void Fall()
     {
-        GravityActive = true;
-        body.simulated = true;
+        GravityActive = true;//turn gravity back on
         if (GetComponent<ItemClick>() != null)
             Destroy(GetComponent<ItemClick>());
         col.isTrigger = false;
