@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 6022800722066569687}
   - component: {fileID: 6022800722066569675}
   - component: {fileID: 7051578301541482029}
+  - component: {fileID: 7285132013221304119}
   m_Layer: 0
   m_Name: 3by1box
   m_TagString: Untagged
@@ -291,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fe57d3410e93e645823f3147d702e97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GravityActive: 1
+  GravityActive: 0
   Gravity: 20
   GridSpacing: 1
   OnTopOfMe: {fileID: 0}
@@ -306,3 +307,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6022800722066569684}
   m_CullTransparentMesh: 0
+--- !u!114 &7285132013221304119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022800722066569684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab001fe70476c645bbdb3102ac84872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Joy: 0
+  Utility: 0
