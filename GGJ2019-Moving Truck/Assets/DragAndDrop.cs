@@ -4,25 +4,31 @@ using UnityEngine;
 
 public class DragAndDrop : MonoBehaviour
 {
+    [Header("Selected Object")]
     public Transform SelectedObject;//the object itself
     public int ObjectWidth = 1;//the grid width of the object
+
+    [Header("Grid Settings")]
     public float GridSpacing = 1f;//how wide is a grid space
     public int LeftLimit = -1;//x coord left most side of grid
     public int RightLimit = 1;//y coord right most side of grid
 
+    [Header("Drop States")]
     public bool SafeToDrop = false;//is it safe to drop an item
-    public bool SafeToTrash = false;
+    public bool SafeToTrash = false;//is it safe to drop it in the trash
     
     void OnMouseDrag()
     {
         if (SelectedObject != null)
         {
+            //get mouse position on screen and turn it into world coords
             Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f);
             Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint);
             curPosition = new Vector3(curPosition.x, curPosition.y, 0f);
 
-            if (SafeToDrop)
+            if (SafeToDrop)//if over the truck drop point
             {
+                //then align to grid
                 int gridNum = (int)(curPosition.x / GridSpacing);
                 switch (ObjectWidth)
                 {
@@ -54,7 +60,7 @@ public class DragAndDrop : MonoBehaviour
 
     void OnMouseUp()
     {
-        if (SafeToDrop)
+        if (SafeToDrop)//actually drop item in truck
         {
             if (SelectedObject != null)
             {
@@ -62,14 +68,15 @@ public class DragAndDrop : MonoBehaviour
                 SelectedObject = null;//is no longer selected
             }
         }
-        else if (SafeToTrash)
+        else if (SafeToTrash)//drop item in trash
         {
             if (SelectedObject != null)
             {
-                GameObject.Destroy(SelectedObject);
+                //Need to do anything with item before we destroy it?
+                Destroy(SelectedObject.gameObject);
             }
         }
-        else
+        else//item was dropped somewhere else on screen
         {
             //do something other than drop it
             //Back to selection thing?

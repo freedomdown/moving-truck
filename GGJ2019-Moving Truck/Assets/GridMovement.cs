@@ -5,10 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class GridMovement : MonoBehaviour
 {
-    public bool GravityActive = true;
-    public float Gravity = 20f;
+    public bool GravityActive = false;//set to true when the item is ready to drop
+    public float Gravity = 20f;//force of gravity
     public float GridSpacing = 1f;
-    private Vector2 Axis = new Vector2(0f, -1f);
+    private Vector2 Axis = new Vector2(0f, -1f);//direction of gravity
+
     private Rigidbody2D body;
 
     [Header("RayCast")]
@@ -21,8 +22,9 @@ public class GridMovement : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
-        body.gravityScale = 0f;
-        body.freezeRotation = true;
+        body.gravityScale = 0f;//disable unity's control of gravity
+        body.freezeRotation = true;//don't let teh physics system rotate things when they collide
+        body.simulated = false;//wait until we are told to fall
     }
 
     // Update is called once per frame
