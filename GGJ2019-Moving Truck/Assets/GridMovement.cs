@@ -42,9 +42,12 @@ public class GridMovement : MonoBehaviour
         }
 
         //find object directly "up" of us, if any
-        RaycastHit2D hit = Physics2D.BoxCast(transform.position + (Vector3.right * RayCastOffset), new Vector2(RayCastSize, 0.2f), 0f, Vector2.up, RayCastDistance);
-        if (hit.collider != null)
-            OnTopOfMe = hit.transform;
+        if (OnTopOfMe == null)
+        {
+            RaycastHit2D hit = Physics2D.BoxCast(transform.position + (Vector3.right * RayCastOffset), new Vector2(RayCastSize, 0.2f), 0f, Vector2.up, RayCastDistance);
+            if (hit.collider != null)
+                OnTopOfMe = hit.transform;
+        }
     }
 
     private void OnDrawGizmosSelected()
@@ -52,5 +55,10 @@ public class GridMovement : MonoBehaviour
         Gizmos.color = Color.cyan;
         //Gizmos.DrawWireCube(transform.position, new Vector2(RayCastSize, 0.2f));
         Gizmos.DrawWireCube((transform.position + (Vector3.up * RayCastDistance)) + (Vector3.right * RayCastOffset), new Vector2(RayCastSize, 0.2f));
+    }
+
+    public void Fall()
+    {
+        GravityActive = true;
     }
 }
