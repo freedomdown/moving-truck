@@ -32,6 +32,10 @@ public class ItemQueue : MonoBehaviour
 
     }
 
+    private void OnMouseDown() {
+        SpawnNextItem();
+    }
+
     private void SpawnNextItem() {
         ItemData data = items[Random.Range(0, items.Count)];
         items.Remove(data);
