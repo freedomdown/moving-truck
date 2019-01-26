@@ -11,6 +11,7 @@ public class GridMovement : MonoBehaviour
     private Vector2 Axis = new Vector2(0f, -1f);//direction of gravity
 
     private Rigidbody2D body;
+    private BoxCollider2D col;
 
     [Header("RayCast")]
     public Transform OnTopOfMe;//what obj is on top of this one, if any
@@ -24,7 +25,10 @@ public class GridMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         body.gravityScale = 0f;//disable unity's control of gravity
         body.freezeRotation = true;//don't let teh physics system rotate things when they collide
-        body.simulated = false;//wait until we are told to fall
+        //body.simulated = false;//wait until we are told to fall
+
+        col = GetComponent<BoxCollider2D>();
+        col.isTrigger = true;
     }
 
     // Update is called once per frame
@@ -63,5 +67,9 @@ public class GridMovement : MonoBehaviour
     {
         GravityActive = true;
         body.simulated = true;
+        if (GetComponent<ItemClick>() != null)
+            Destroy(GetComponent<ItemClick>());
+        col.isTrigger = false;
+        col.enabled = true;
     }
 }

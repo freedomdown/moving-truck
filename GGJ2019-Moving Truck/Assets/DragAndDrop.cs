@@ -7,6 +7,7 @@ public class DragAndDrop : MonoBehaviour
     [Header("Selected Object")]
     public Transform SelectedObject;//the object itself
     public int ObjectWidth = 1;//the grid width of the object
+    public Vector3 OriginalPos;//where it came from originally
 
     [Header("Grid Settings")]
     public float GridSpacing = 1f;//how wide is a grid space
@@ -17,7 +18,48 @@ public class DragAndDrop : MonoBehaviour
     public bool SafeToDrop = false;//is it safe to drop an item
     public bool SafeToTrash = false;//is it safe to drop it in the trash
     
-    void OnMouseDrag()
+    //public void OnMouseDrag()
+    //{
+    //    if (SelectedObject != null)
+    //    {
+    //        //get mouse position on screen and turn it into world coords
+    //        Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f);
+    //        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint);
+    //        curPosition = new Vector3(curPosition.x, curPosition.y, 0f);
+
+    //        if (SafeToDrop)//if over the truck drop point
+    //        {
+    //            //then align to grid
+    //            int gridNum = (int)(curPosition.x / GridSpacing);
+    //            switch (ObjectWidth)
+    //            {
+    //                case 1:
+    //                    if (gridNum < LeftLimit)
+    //                        gridNum = LeftLimit;
+    //                    else if (gridNum > RightLimit)
+    //                        gridNum = RightLimit;
+    //                    break;
+    //                case 2:
+    //                    if (gridNum < LeftLimit)
+    //                        gridNum = LeftLimit;
+    //                    else if (gridNum > RightLimit - 1)
+    //                        gridNum = RightLimit - 1;
+    //                    break;
+    //                case 3:
+    //                    if (gridNum < LeftLimit)
+    //                        gridNum = LeftLimit;
+    //                    else if (gridNum > RightLimit - 2)
+    //                        gridNum = RightLimit - 2;
+    //                    break;
+    //            }
+    //            curPosition = new Vector3(gridNum * GridSpacing, 3f, 0f);
+    //        }
+
+    //        SelectedObject.position = curPosition;
+    //    }
+    //}
+
+    public void OnMouseOver()
     {
         if (SelectedObject != null)
         {
@@ -55,10 +97,15 @@ public class DragAndDrop : MonoBehaviour
             }
 
             SelectedObject.position = curPosition;
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                OnMouseUp();//make sure it is actually called
+            }
         }
     }
 
-    void OnMouseUp()
+    public void OnMouseUp()
     {
         if (SafeToDrop)//actually drop item in truck
         {
@@ -81,7 +128,11 @@ public class DragAndDrop : MonoBehaviour
             //do something other than drop it
             //Back to selection thing?
             if (SelectedObject != null)
-                SelectedObject.position = new Vector3(4f, 4f, 0f);
+            {
+                SelectedObject.position = OriginalPos;
+                SelectedObject.GetComponent<BoxCollider2D>().enabled = true;
+                SelectedObject = null;
+            }
         }
     }
 

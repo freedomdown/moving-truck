@@ -30,4 +30,9 @@ public class DropZone : MonoBehaviour
         if (Display != null)
             Display.SetActive(false);
     }
+
+    private void OnMouseOver()
+    {
+        draggingArea.OnMouseOver();
+    }
 }
