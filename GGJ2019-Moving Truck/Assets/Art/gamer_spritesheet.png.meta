@@ -1,0 +1,635 @@
+fileFormatVersion: 2
+guid: e8a9c072531bad34cab38b37d09c9174
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gamer_spritesheet_0
+    21300002: gamer_spritesheet_1
+    21300004: gamer_spritesheet_2
+    21300006: gamer_spritesheet_3
+    21300008: gamer_spritesheet_4
+    21300010: gamer_spritesheet_5
+    21300012: gamer_spritesheet_6
+    21300014: gamer_spritesheet_7
+    21300016: gamer_spritesheet_8
+    21300018: gamer_spritesheet_9
+    21300020: gamer_spritesheet_10
+    21300022: gamer_spritesheet_11
+    21300024: gamer_spritesheet_12
+    21300026: gamer_spritesheet_13
+    21300028: gamer_spritesheet_14
+    21300030: gamer_spritesheet_15
+    21300032: gamer_spritesheet_16
+    21300034: gamer_spritesheet_17
+    21300036: gamer_spritesheet_18
+    21300038: gamer_spritesheet_19
+    21300040: gamer_spritesheet_20
+    21300042: gamer_spritesheet_21
+    21300044: gamer_spritesheet_22
+    21300046: gamer_spritesheet_23
+    21300048: gamer_spritesheet_24
+    21300050: gamer_spritesheet_25
+    21300052: gamer_spritesheet_26
+    21300054: gamer_spritesheet_27
+    21300056: gamer_spritesheet_28
+    21300058: gamer_spritesheet_29
+    21300060: gamer_spritesheet_30
+    21300062: gamer_spritesheet_31
+    21300064: gamer_spritesheet_32
+    21300066: gamer_spritesheet_33
+    21300068: gamer_spritesheet_34
+    21300070: gamer_spritesheet_35
+    21300072: gamer_spritesheet_36
+    21300074: gamer_spritesheet_37
+    21300076: gamer_spritesheet_38
+    21300078: gamer_spritesheet_39
+    21300080: gamer_spritesheet_40
+    21300082: gamer_spritesheet_41
+    21300084: gamer_spritesheet_42
+    21300086: gamer_spritesheet_43
+    21300088: gamer_spritesheet_44
+    21300090: gamer_spritesheet_45
+    21300092: gamer_spritesheet_46
+    21300094: gamer_spritesheet_47
+    21300096: gamer_spritesheet_48
+    21300098: gamer_spritesheet_49
+    21300100: gamer_spritesheet_50
+    21300102: gamer_spritesheet_51
+    21300104: gamer_spritesheet_52
+    21300106: gamer_spritesheet_53
+    21300108: gamer_spritesheet_54
+    21300110: gamer_spritesheet_55
+    21300112: gamer_spritesheet_56
+    21300114: gamer_spritesheet_57
+    21300116: gamer_spritesheet_58
+    21300118: gamer_spritesheet_59
+    21300120: gamer_spritesheet_60
+    21300122: gamer_spritesheet_61
+    21300124: gamer_spritesheet_62
+    21300126: gamer_spritesheet_63
+    21300128: gamer_spritesheet_64
+    21300130: gamer_spritesheet_65
+    21300132: gamer_spritesheet_66
+    21300134: gamer_spritesheet_67
+    21300136: gamer_spritesheet_68
+    21300138: gamer_spritesheet_69
+    21300140: gamer_spritesheet_70
+    21300142: gamer_spritesheet_71
+    21300144: gamer_spritesheet_72
+    21300146: gamer_spritesheet_73
+    21300148: gamer_spritesheet_74
+    21300150: gamer_spritesheet_75
+    21300152: gamer_spritesheet_76
+    21300154: gamer_spritesheet_77
+    21300156: gamer_spritesheet_78
+    21300158: gamer_spritesheet_79
+    21300160: gamer_spritesheet_80
+    21300162: gamer_spritesheet_81
+    21300164: gamer_spritesheet_82
+    21300166: gamer_spritesheet_83
+    21300168: gamer_spritesheet_84
+    21300170: gamer_spritesheet_85
+    21300172: gamer_spritesheet_86
+    21300174: gamer_spritesheet_87
+    21300176: gamer_spritesheet_88
+    21300178: gamer_spritesheet_89
+    21300180: gamer_spritesheet_90
+    21300182: gamer_spritesheet_91
+    21300184: gamer_spritesheet_92
+    21300186: gamer_spritesheet_93
+    21300188: gamer_spritesheet_94
+    21300190: gamer_spritesheet_95
+    21300192: gamer_spritesheet_96
+    21300194: gamer_spritesheet_97
+    21300196: gamer_spritesheet_98
+    21300198: gamer_spritesheet_99
+    21300200: gamer_spritesheet_100
+    21300202: gamer_spritesheet_101
+    21300204: gamer_spritesheet_102
+    21300206: gamer_spritesheet_103
+    21300208: gamer_spritesheet_104
+    21300210: gamer_spritesheet_105
+    21300212: gamer_spritesheet_106
+    21300214: gamer_spritesheet_107
+    21300216: gamer_spritesheet_108
+    21300218: gamer_spritesheet_109
+    21300220: gamer_spritesheet_110
+    21300222: gamer_spritesheet_111
+    21300224: gamer_spritesheet_112
+    21300226: gamer_spritesheet_113
+    21300228: gamer_spritesheet_114
+    21300230: gamer_spritesheet_115
+    21300232: gamer_spritesheet_116
+    21300234: gamer_spritesheet_117
+    21300236: gamer_spritesheet_118
+    21300238: gamer_spritesheet_119
+    21300240: gamer_spritesheet_120
+    21300242: gamer_spritesheet_121
+    21300244: gamer_spritesheet_122
+    21300246: gamer_spritesheet_123
+    21300248: gamer_spritesheet_124
+    21300250: gamer_spritesheet_125
+    21300252: gamer_spritesheet_126
+    21300254: gamer_spritesheet_127
+    21300256: gamer_spritesheet_128
+    21300258: gamer_spritesheet_129
+    21300260: gamer_spritesheet_130
+    21300262: gamer_spritesheet_131
+    21300264: gamer_spritesheet_132
+    21300266: gamer_spritesheet_133
+    21300268: gamer_spritesheet_134
+    21300270: gamer_spritesheet_135
+    21300272: gamer_spritesheet_136
+    21300274: gamer_spritesheet_137
+    21300276: gamer_spritesheet_138
+    21300278: gamer_spritesheet_139
+    21300280: gamer_spritesheet_140
+    21300282: gamer_spritesheet_141
+    21300284: gamer_spritesheet_142
+    21300286: gamer_spritesheet_143
+    21300288: gamer_spritesheet_144
+    21300290: gamer_spritesheet_145
+    21300292: gamer_spritesheet_146
+    21300294: gamer_spritesheet_147
+    21300296: gamer_spritesheet_148
+    21300298: gamer_spritesheet_149
+    21300300: gamer_spritesheet_150
+    21300302: gamer_spritesheet_151
+    21300304: gamer_spritesheet_152
+    21300306: gamer_spritesheet_153
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gamer_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 2646
+        width: 408
+        height: 765
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40066d94f8f8e1944b639e16faa0b8b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 2742
+        width: 362
+        height: 635
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f334de465544854dbbcff7be31e19d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2760
+        width: 380
+        height: 541
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe47bc7ac1e53b4298f761e7aab1445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 2798
+        width: 306
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2803c292ddcd4724887e4c586c05edba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2845
+        width: 1053
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6eabcb7e85de9e4eaefb68b1bff49d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 2738
+        width: 691
+        height: 583
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f220a4fd1978a3d47b83f93b48edb53f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 2748
+        width: 464
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf44a026b922cef44b4b6abed13fe361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 1941
+        width: 545
+        height: 633
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fc645cf287feb4f81e29eed51dc0d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1980
+        width: 1229
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794bf9d1196f490409ca7dcb7fd3188c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1823
+        width: 690
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f2d939bd65c4647828701296b8e166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 2169
+        width: 607
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f572fb068f079439de1264d1a23670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 2064
+        width: 294
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c48ba164a4882409450b8edebf9929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 4060
+        y: 1224
+        width: 722
+        height: 1160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6741238a0e026a644abf290532c9b822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 827
+        width: 874
+        height: 1032
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724a5e60048276e42acec07383131e20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 987
+        width: 1215
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacb4dd2b34254b438eefaa60530b266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 993
+        width: 502
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d21f8e33575ac4e971a246da3f0759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 967
+        width: 352
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ec82fb34402a94798b71e629e4b401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamer_spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 141
+        width: 1227
+        height: 489
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1a620815cb6e5489f26e249cad8506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a08fddde95040c84f992676c49c2afc6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

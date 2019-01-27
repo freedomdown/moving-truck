@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: a0217772e4bc60145adc35125cdaf8cc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: comfy_spritesheet3_0
+    21300002: comfy_spritesheet3_1
+    21300004: comfy_spritesheet3_2
+    21300006: comfy_spritesheet3_3
+    21300008: comfy_spritesheet3_4
+    21300010: comfy_spritesheet3_5
+    21300012: comfy_spritesheet3_6
+    21300014: comfy_spritesheet3_7
+    21300016: comfy_spritesheet3_8
+    21300018: comfy_spritesheet3_9
+    21300020: comfy_spritesheet3_10
+    21300022: comfy_spritesheet3_11
+    21300024: comfy_spritesheet3_12
+    21300026: comfy_spritesheet3_13
+    21300028: comfy_spritesheet3_14
+    21300030: comfy_spritesheet3_15
+    21300032: comfy_spritesheet3_16
+    21300034: comfy_spritesheet3_17
+    21300036: comfy_spritesheet3_18
+    21300038: comfy_spritesheet3_19
+    21300040: comfy_spritesheet3_20
+    21300042: comfy_spritesheet3_21
+    21300044: comfy_spritesheet3_22
+    21300046: comfy_spritesheet3_23
+    21300048: comfy_spritesheet3_24
+    21300050: comfy_spritesheet3_25
+    21300052: comfy_spritesheet3_26
+    21300054: comfy_spritesheet3_27
+    21300056: comfy_spritesheet3_28
+    21300058: comfy_spritesheet3_29
+    21300060: comfy_spritesheet3_30
+    21300062: comfy_spritesheet3_31
+    21300064: comfy_spritesheet3_32
+    21300066: comfy_spritesheet3_33
+    21300068: comfy_spritesheet3_34
+    21300070: comfy_spritesheet3_35
+    21300072: comfy_spritesheet3_36
+    21300074: comfy_spritesheet3_37
+    21300076: comfy_spritesheet3_38
+    21300078: comfy_spritesheet3_39
+    21300080: comfy_spritesheet3_40
+    21300082: comfy_spritesheet3_41
+    21300084: comfy_spritesheet3_42
+    21300086: comfy_spritesheet3_43
+    21300088: comfy_spritesheet3_44
+    21300090: comfy_spritesheet3_45
+    21300092: comfy_spritesheet3_46
+    21300094: comfy_spritesheet3_47
+    21300096: comfy_spritesheet3_48
+    21300098: comfy_spritesheet3_49
+    21300100: comfy_spritesheet3_50
+    21300102: comfy_spritesheet3_51
+    21300104: comfy_spritesheet3_52
+    21300106: comfy_spritesheet3_53
+    21300108: comfy_spritesheet3_54
+    21300110: comfy_spritesheet3_55
+    21300112: comfy_spritesheet3_56
+    21300114: comfy_spritesheet3_57
+    21300116: comfy_spritesheet3_58
+    21300118: comfy_spritesheet3_59
+    21300120: comfy_spritesheet3_60
+    21300122: comfy_spritesheet3_61
+    21300124: comfy_spritesheet3_62
+    21300126: comfy_spritesheet3_63
+    21300128: comfy_spritesheet3_64
+    21300130: comfy_spritesheet3_65
+    21300132: comfy_spritesheet3_66
+    21300134: comfy_spritesheet3_67
+    21300136: comfy_spritesheet3_68
+    21300138: comfy_spritesheet3_69
+    21300140: comfy_spritesheet3_70
+    21300142: comfy_spritesheet3_71
+    21300144: comfy_spritesheet3_72
+    21300146: comfy_spritesheet3_73
+    21300148: comfy_spritesheet3_74
+    21300150: comfy_spritesheet3_75
+    21300152: comfy_spritesheet3_76
+    21300154: comfy_spritesheet3_77
+    21300156: comfy_spritesheet3_78
+    21300158: comfy_spritesheet3_79
+    21300160: comfy_spritesheet3_80
+    21300162: comfy_spritesheet3_81
+    21300164: comfy_spritesheet3_82
+    21300166: comfy_spritesheet3_83
+    21300168: comfy_spritesheet3_84
+    21300170: comfy_spritesheet3_85
+    21300172: comfy_spritesheet3_86
+    21300174: comfy_spritesheet3_87
+    21300176: comfy_spritesheet3_88
+    21300178: comfy_spritesheet3_89
+    21300180: comfy_spritesheet3_90
+    21300182: comfy_spritesheet3_91
+    21300184: comfy_spritesheet3_92
+    21300186: comfy_spritesheet3_93
+    21300188: comfy_spritesheet3_94
+    21300190: comfy_spritesheet3_95
+    21300192: comfy_spritesheet3_96
+    21300194: comfy_spritesheet3_97
+    21300196: comfy_spritesheet3_98
+    21300198: comfy_spritesheet3_99
+    21300200: comfy_spritesheet3_100
+    21300202: comfy_spritesheet3_101
+    21300204: comfy_spritesheet3_102
+    21300206: comfy_spritesheet3_103
+    21300208: comfy_spritesheet3_104
+    21300210: comfy_spritesheet3_105
+    21300212: comfy_spritesheet3_106
+    21300214: comfy_spritesheet3_107
+    21300216: comfy_spritesheet3_108
+    21300218: comfy_spritesheet3_109
+    21300220: comfy_spritesheet3_110
+    21300222: comfy_spritesheet3_111
+    21300224: comfy_spritesheet3_112
+    21300226: comfy_spritesheet3_113
+    21300228: comfy_spritesheet3_114
+    21300230: comfy_spritesheet3_115
+    21300232: comfy_spritesheet3_116
+    21300234: comfy_spritesheet3_117
+    21300236: comfy_spritesheet3_118
+    21300238: comfy_spritesheet3_119
+    21300240: comfy_spritesheet3_120
+    21300242: comfy_spritesheet3_121
+    21300244: comfy_spritesheet3_122
+    21300246: comfy_spritesheet3_123
+    21300248: comfy_spritesheet3_124
+    21300250: comfy_spritesheet3_125
+    21300252: comfy_spritesheet3_126
+    21300254: comfy_spritesheet3_127
+    21300256: comfy_spritesheet3_128
+    21300258: comfy_spritesheet3_129
+    21300260: comfy_spritesheet3_130
+    21300262: comfy_spritesheet3_131
+    21300264: comfy_spritesheet3_132
+    21300266: comfy_spritesheet3_133
+    21300268: comfy_spritesheet3_134
+    21300270: comfy_spritesheet3_135
+    21300272: comfy_spritesheet3_136
+    21300274: comfy_spritesheet3_137
+    21300276: comfy_spritesheet3_138
+    21300278: comfy_spritesheet3_139
+    21300280: comfy_spritesheet3_140
+    21300282: comfy_spritesheet3_141
+    21300284: comfy_spritesheet3_142
+    21300286: comfy_spritesheet3_143
+    21300288: comfy_spritesheet3_144
+    21300290: comfy_spritesheet3_145
+    21300292: comfy_spritesheet3_146
+    21300294: comfy_spritesheet3_147
+    21300296: comfy_spritesheet3_148
+    21300298: comfy_spritesheet3_149
+    21300300: comfy_spritesheet3_150
+    21300302: comfy_spritesheet3_151
+    21300304: comfy_spritesheet3_152
+    21300306: comfy_spritesheet3_153
+    21300308: comfy_spritesheet3_154
+    21300310: comfy_spritesheet3_155
+    21300312: comfy_spritesheet3_156
+    21300314: comfy_spritesheet3_157
+    21300316: comfy_spritesheet3_158
+    21300318: comfy_spritesheet3_159
+    21300320: comfy_spritesheet3_160
+    21300322: comfy_spritesheet3_161
+    21300324: comfy_spritesheet3_162
+    21300326: comfy_spritesheet3_163
+    21300328: comfy_spritesheet3_164
+    21300330: comfy_spritesheet3_165
+    21300332: comfy_spritesheet3_166
+    21300334: comfy_spritesheet3_167
+    21300336: comfy_spritesheet3_168
+    21300338: comfy_spritesheet3_169
+    21300340: comfy_spritesheet3_170
+    21300342: comfy_spritesheet3_171
+    21300344: comfy_spritesheet3_172
+    21300346: comfy_spritesheet3_173
+    21300348: comfy_spritesheet3_174
+    21300350: comfy_spritesheet3_175
+    21300352: comfy_spritesheet3_176
+    21300354: comfy_spritesheet3_177
+    21300356: comfy_spritesheet3_178
+    21300358: comfy_spritesheet3_179
+    21300360: comfy_spritesheet3_180
+    21300362: comfy_spritesheet3_181
+    21300364: comfy_spritesheet3_182
+    21300366: comfy_spritesheet3_183
+    21300368: comfy_spritesheet3_184
+    21300370: comfy_spritesheet3_185
+    21300372: comfy_spritesheet3_186
+    21300374: comfy_spritesheet3_187
+    21300376: comfy_spritesheet3_188
+    21300378: comfy_spritesheet3_189
+    21300380: comfy_spritesheet3_190
+    21300382: comfy_spritesheet3_191
+    21300384: comfy_spritesheet3_192
+    21300386: comfy_spritesheet3_193
+    21300388: comfy_spritesheet3_194
+    21300390: comfy_spritesheet3_195
+    21300392: comfy_spritesheet3_196
+    21300394: comfy_spritesheet3_197
+    21300396: comfy_spritesheet3_198
+    21300398: comfy_spritesheet3_199
+    21300400: comfy_spritesheet3_200
+    21300402: comfy_spritesheet3_201
+    21300404: comfy_spritesheet3_202
+    21300406: comfy_spritesheet3_203
+    21300408: comfy_spritesheet3_204
+    21300410: comfy_spritesheet3_205
+    21300412: comfy_spritesheet3_206
+    21300414: comfy_spritesheet3_207
+    21300416: comfy_spritesheet3_208
+    21300418: comfy_spritesheet3_209
+    21300420: comfy_spritesheet3_210
+    21300422: comfy_spritesheet3_211
+    21300424: comfy_spritesheet3_212
+    21300426: comfy_spritesheet3_213
+    21300428: comfy_spritesheet3_214
+    21300430: comfy_spritesheet3_215
+    21300432: comfy_spritesheet3_216
+    21300434: comfy_spritesheet3_217
+    21300436: comfy_spritesheet3_218
+    21300438: comfy_spritesheet3_219
+    21300440: comfy_spritesheet3_220
+    21300442: comfy_spritesheet3_221
+    21300444: comfy_spritesheet3_222
+    21300446: comfy_spritesheet3_223
+    21300448: comfy_spritesheet3_224
+    21300450: comfy_spritesheet3_225
+    21300452: comfy_spritesheet3_226
+    21300454: comfy_spritesheet3_227
+    21300456: comfy_spritesheet3_228
+    21300458: comfy_spritesheet3_229
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: comfy_spritesheet3_1
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 3217
+        width: 325
+        height: 743
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4655212917776e41b3737fe09ccdbfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_3
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 3145
+        width: 911
+        height: 738
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb0df359ad751d419bd741fcbebb38c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_12
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 3615
+        width: 449
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ebb96ad3e46c048ad98d56b0fc7362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_14
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 3223
+        width: 419
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dbf30ad9b78cc47bf9e4a20f2b241d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_31
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 3018
+        width: 926
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc3d95007ff64642b81550929f8f7c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_52
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 1962
+        width: 458
+        height: 1082
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aceb2b8d2e0dbf14d8b6bf55f344cac6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_56
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 2711
+        width: 393
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01291a88f1af9df42857d5eebc4c5673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_57
+      rect:
+        serializedVersion: 2
+        x: 3951
+        y: 2363
+        width: 612
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ffb3974778d6d48b4d52b063e17af7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_60
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1806
+        width: 769
+        height: 1109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8520eb0198388ba4a80d03f8e6e54efd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_63
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2368
+        width: 412
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa2ae53284831f40b19056914339b8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_69
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1800
+        width: 1072
+        height: 811
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374476c19d05b9d43986b2890b5e76a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_79
+      rect:
+        serializedVersion: 2
+        x: 4063
+        y: 1408
+        width: 376
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78a9299da08f29489288c412195672c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_85
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1088
+        width: 621
+        height: 753
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f3f3334f523f1439e374cd12245bbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_99
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 991
+        width: 1029
+        height: 746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050f8d9aab98d084382884e0127a2159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_102
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1386
+        width: 771
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc754e293fff81e4397ad0ac6643d4c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_115
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1064
+        width: 1173
+        height: 526
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a44e9aa6653ae42b7a35578c930c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_167
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 61
+        width: 417
+        height: 802
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b233727032e9aa3498890e171622449e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comfy_spritesheet3_170
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 29
+        width: 1420
+        height: 756
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841efd8210bdc9e43bdbc879028f9aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 0, y: 2003.5}
+      - {x: -2111.3699, y: -1001.7501}
+      - {x: 2111.37, y: -1001.7498}
+    physicsShape: []
+    bones: []
+    spriteID: 0f5e014c1149d614fafd482cd6ff7fab
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
