@@ -14,6 +14,7 @@ public class GameScore : MonoBehaviour
     public Text name;
     public Text personality;
     private int currentUtility = 0;
+    private int goalUtility = 300;
     private int currentJoy = 0;
 
     // Update is called once per frame
@@ -36,7 +37,7 @@ public class GameScore : MonoBehaviour
             currentJoy--;
         }
         joyScore.text = "Joy\n" + currentJoy;
-        utilityScore.text = "Utility\n" + currentUtility;
+        utilityScore.text = "Utility\n" + currentUtility + "/300";
 
         if (queue.enqueued.Count == 0 && currentJoy == joy && currentUtility == utility) {
             AllDone = true;
