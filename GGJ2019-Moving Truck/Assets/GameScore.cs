@@ -11,7 +11,7 @@ public class GameScore : MonoBehaviour
     public Text joyScore;
     public ItemQueue queue;
     public bool AllDone = false;
-    public Text name;
+    public Text moverName;
     public Text personality;
     private int currentUtility = 0;
     private int goalUtility = 300;
@@ -20,7 +20,7 @@ public class GameScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        name.text = queue.mover.name;
+        moverName.text = queue.mover.moverName;
         personality.text = queue.mover.personality;
 
         ItemScore[] scores = ItemsGroup.GetComponentsInChildren<ItemScore>();

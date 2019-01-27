@@ -35,7 +35,6 @@ public class ItemQueue : MonoBehaviour
         };
 
         mover = BioReader.GetRandomBio();
-        print(mover.name);
 
         items = new List<ItemData>()
         {
