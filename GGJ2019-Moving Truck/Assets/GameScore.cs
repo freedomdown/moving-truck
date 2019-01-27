@@ -11,12 +11,18 @@ public class GameScore : MonoBehaviour
     public Text joyScore;
     public ItemQueue queue;
     public bool AllDone = false;
+    public Text name;
+    public Text personality;
     private int currentUtility = 0;
+    private int goalUtility = 300;
     private int currentJoy = 0;
 
     // Update is called once per frame
     void Update()
     {
+        name.text = queue.mover.name;
+        personality.text = queue.mover.personality;
+
         ItemScore[] scores = ItemsGroup.GetComponentsInChildren<ItemScore>();
         int utility = scores.Sum(score => score.GetUtility());
         int joy = scores.Sum(score => score.GetJoy());
@@ -31,7 +37,7 @@ public class GameScore : MonoBehaviour
             currentJoy--;
         }
         joyScore.text = "Joy\n" + currentJoy;
-        utilityScore.text = "Utility\n" + currentUtility;
+        utilityScore.text = "Utility\n" + currentUtility + "/300";
 
         if (queue.enqueued.Count == 0 && currentJoy == joy && currentUtility == utility) {
             AllDone = true;

@@ -19,7 +19,7 @@ public class ItemQueue : MonoBehaviour
     private bool drawQueue = false;
 
     public BioReader BioReader;
-    Mover mover;
+    public Mover mover;
 
     private void Start() {
         prefabs = new Dictionary<Tuple<int, int>, GameObject>() {
@@ -39,31 +39,31 @@ public class ItemQueue : MonoBehaviour
 
         items = new List<ItemData>()
         {
-            { new ItemData(1, 1, "Art", 50, mover.joyValues["art"], 10) },
-            { new ItemData(3, 2, "Bed", 50, mover.joyValues["bed"], 10) },
-            { new ItemData(2, 2, "Chair", 0, mover.joyValues["chair"], 0) },
-            { new ItemData(1, 1, "Computer", 50, mover.joyValues["computer"], 10) },
+            { new ItemData(1, 1, "Art", 20, mover.joyValues["art"], 10) },
+            { new ItemData(3, 2, "Bed", 80, mover.joyValues["bed"], 10) },
+            { new ItemData(2, 2, "Chair", 40, mover.joyValues["chair"], 0) },
+            { new ItemData(1, 1, "Computer", 20, mover.joyValues["computer"], 10) },
             { new ItemData(2, 3, "Sofa", 50, mover.joyValues["sofa"], 10) },
             { new ItemData(2, 2, "Desk", 50, mover.joyValues["desk"], 10) },
             { new ItemData(2, 2, "Dresser", 50, mover.joyValues["dresser"], 10) },
-            { new ItemData(1, 3, "Lamp", 10, mover.joyValues["lamp"], 0) },
-            { new ItemData(1, 3, "Plant", 50, mover.joyValues["plants"], 10) },
+            { new ItemData(1, 3, "Lamp", 30, mover.joyValues["lamp"], 0) },
+            { new ItemData(1, 3, "Plant", 20, mover.joyValues["plants"], 10) },
             { new ItemData(2, 3, "Shelves", 50, mover.joyValues["shelves"], 10) },
             { new ItemData(2, 2, "SideTable", 50, mover.joyValues["sidetable"], 10) }
         };
 
         if (mover.isGamer)
         {
-            items.Add(new ItemData(1, 1, "Console", 50, mover.joyValues["console"], 10));
-            items.Add(new ItemData(1, 1, "Collectible", 50, mover.joyValues["collectible"], 10));
-            items.Add(new ItemData(1, 1, "Headset", 50, mover.joyValues["headset"], 10));
-            items.Add(new ItemData(1, 1, "Plush", 50, mover.joyValues["plush"], 10));
+            items.Add(new ItemData(1, 1, "Console", 5, mover.joyValues["console"], 10));
+            items.Add(new ItemData(1, 1, "Collectible", 5, mover.joyValues["collectible"], 10));
+            items.Add(new ItemData(1, 1, "Headset", 20, mover.joyValues["headset"], 10));
+            items.Add(new ItemData(1, 1, "Plush", 20, mover.joyValues["plush"], 10));
         } else
         {
-            items.Add(new ItemData(1, 1, "Journal", 50, mover.joyValues["journals"], 10));
-            items.Add(new ItemData(1, 1, "Instrument", 50, mover.joyValues["instrument"], 10));
-            items.Add(new ItemData(1, 1, "Rug", 50, mover.joyValues["rug"], 10));
-            items.Add(new ItemData(1, 1, "Stereo", 50, mover.joyValues["music"], 10));
+            items.Add(new ItemData(1, 1, "Journal", 5, mover.joyValues["journals"], 10));
+            items.Add(new ItemData(1, 1, "Instrument", 5, mover.joyValues["instrument"], 10));
+            items.Add(new ItemData(1, 1, "Rug", 20, mover.joyValues["rug"], 10));
+            items.Add(new ItemData(1, 1, "Stereo", 20, mover.joyValues["music"], 10));
         }
         print(items.Count);
 
