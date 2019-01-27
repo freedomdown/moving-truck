@@ -8,6 +8,7 @@ public class DragAndDrop : MonoBehaviour
     public Transform SelectedObject;//the object itself
     public int ObjectWidth = 1;//the grid width of the object
     public Vector3 OriginalPos;//where it came from originally
+    public ItemQueue itemQueue;
 
     [Header("Grid Settings")]
     public float GridSpacing = 1f;//how wide is a grid space
@@ -112,6 +113,9 @@ public class DragAndDrop : MonoBehaviour
             if (SelectedObject != null)
             {
                 SelectedObject.SendMessage("Fall");//tell object to fall
+                ItemScore score = SelectedObject.GetComponentInChildren(typeof(ItemScore)) as ItemScore;
+                score.state = ItemScore.State.OnTruck;
+                itemQueue.RemoveFromQueue(SelectedObject);
                 SelectedObject = null;//is no longer selected
             }
         }
