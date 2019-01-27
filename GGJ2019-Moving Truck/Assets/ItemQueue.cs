@@ -19,7 +19,7 @@ public class ItemQueue : MonoBehaviour
     private bool drawQueue = false;
 
     public BioReader BioReader;
-    Mover mover;
+    public Mover mover;
 
     private void Start() {
         prefabs = new Dictionary<Tuple<int, int>, GameObject>() {
