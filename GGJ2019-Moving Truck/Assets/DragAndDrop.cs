@@ -129,9 +129,11 @@ public class DragAndDrop : MonoBehaviour
         {
             if (SelectedObject != null)
             {
-                //Need to do anything with item before we destroy it?
-                Destroy(SelectedObject.gameObject);
+                itemQueue.RemoveFromQueue(SelectedObject);
                 TrashSnd.Play();
+                SelectedObject.gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
+                Destroy(SelectedObject.gameObject, TrashSnd.clip.length);
+                SelectedObject = null;//is no longer selected
             }
         }
         else//item was dropped somewhere else on screen
