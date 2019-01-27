@@ -22,7 +22,7 @@ public class BioReader : MonoBehaviour
         return movers;
     }
 
-    Mover GetRandomBio()
+    public Mover GetRandomBio()
     {
         if (movers.Count == 0)
         {

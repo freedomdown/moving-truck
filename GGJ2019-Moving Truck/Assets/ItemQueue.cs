@@ -3,6 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using Mover = BioReader.Mover;
 
 public class ItemQueue : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class ItemQueue : MonoBehaviour
     public List<GameObject> enqueued = new List<GameObject>();
     private bool drawQueue = false;
 
+    public BioReader BioReader;
+    Mover mover;
+
     private void Start() {
         prefabs = new Dictionary<Tuple<int, int>, GameObject>() {
             { Tuple.Create(1, 1), Resources.Load("1by1box") as GameObject },
@@ -29,29 +33,41 @@ public class ItemQueue : MonoBehaviour
             { Tuple.Create(3, 2), Resources.Load("3by2box") as GameObject },
             { Tuple.Create(3, 3), Resources.Load("3by3box") as GameObject },
         };
- 
-        items = Shuffle(new List<ItemData>() {
-            { new ItemData(1, 1, "Art", 50, 80, 10) },
-            { new ItemData(3, 2, "Bed", 50, 80, 10) },
-            { new ItemData(2, 2, "Chair", 0, 100, 0) },
-            { new ItemData(1, 1, "Collectibles", 50, 80, 10) },
-            { new ItemData(1, 1, "Comics", 50, 80, 10) },
-            { new ItemData(1, 1, "Computer", 50, 80, 10) },
-            { new ItemData(1, 1, "Console", 50, 80, 10) },
-            { new ItemData(2, 3, "Couch", 50, 80, 10) },
-            { new ItemData(2, 2, "Desk", 50, 80, 10) },
-            { new ItemData(2, 2, "Dresser", 50, 80, 10) },
-            { new ItemData(1, 3, "Lamp", 10, 60, 0) },
-            { new ItemData(1, 3, "Plant", 50, 80, 10) },
-            { new ItemData(1, 1, "Plush", 50, 80, 10) },
-            { new ItemData(2, 3, "Shelves", 50, 80, 10) },
-            { new ItemData(2, 2, "SideTable", 50, 80, 10) },
-            { new ItemData(2, 2, "Stereo", 50, 80, 10) },
-            { new ItemData(2, 2, "Table", 50, 80, 10) },
-//            { new ItemData(1, 1, "Journals", 50, 80, 10) },
-//            { new ItemData(2, 2, "Rug", 50, 80, 10) },
-//            { new ItemData(1, 2, "Instrument", 50, 80, 10) },
-        });
+
+        mover = BioReader.GetRandomBio();
+        print(mover.name);
+
+        items = new List<ItemData>()
+        {
+            { new ItemData(1, 1, "Art", 50, mover.joyValues["art"], 10) },
+            { new ItemData(3, 2, "Bed", 50, mover.joyValues["bed"], 10) },
+            { new ItemData(2, 2, "Chair", 0, mover.joyValues["chair"], 0) },
+            { new ItemData(1, 1, "Computer", 50, mover.joyValues["computer"], 10) },
+            { new ItemData(2, 3, "Sofa", 50, mover.joyValues["sofa"], 10) },
+            { new ItemData(2, 2, "Desk", 50, mover.joyValues["desk"], 10) },
+            { new ItemData(2, 2, "Dresser", 50, mover.joyValues["dresser"], 10) },
+            { new ItemData(1, 3, "Lamp", 10, mover.joyValues["lamp"], 0) },
+            { new ItemData(1, 3, "Plant", 50, mover.joyValues["plants"], 10) },
+            { new ItemData(2, 3, "Shelves", 50, mover.joyValues["shelves"], 10) },
+            { new ItemData(2, 2, "SideTable", 50, mover.joyValues["sidetable"], 10) }
+        };
+
+        if (mover.isGamer)
+        {
+            items.Add(new ItemData(1, 1, "Console", 50, mover.joyValues["console"], 10));
+            items.Add(new ItemData(1, 1, "Collectible", 50, mover.joyValues["collectible"], 10));
+            items.Add(new ItemData(1, 1, "Headset", 50, mover.joyValues["headset"], 10));
+            items.Add(new ItemData(1, 1, "Plush", 50, mover.joyValues["plush"], 10));
+        } else
+        {
+            items.Add(new ItemData(1, 1, "Journal", 50, mover.joyValues["journals"], 10));
+            items.Add(new ItemData(1, 1, "Instrument", 50, mover.joyValues["instrument"], 10));
+            items.Add(new ItemData(1, 1, "Rug", 50, mover.joyValues["rug"], 10));
+            items.Add(new ItemData(1, 1, "Stereo", 50, mover.joyValues["music"], 10));
+        }
+        print(items.Count);
+
+        items = Shuffle(items);
 
         while (QueueHasSpaceForNext()) { SpawnNextItem(); }
     }
@@ -111,8 +127,15 @@ public class ItemQueue : MonoBehaviour
         }
         ItemData data = PopData();
 
-
-        GameObject item = Instantiate(Resources.Load("Gamer/" + data.Label) as GameObject);
+        string root = "Gamer/";
+        if (mover.isGamer)
+        {
+            root = "Gamer/";
+        } else
+        {
+            root = "Comfy/";
+        }
+        GameObject item = Instantiate(Resources.Load(root + data.Label) as GameObject);
         item.transform.SetParent(ItemsGroup);
 //        TextMesh text = item.GetComponentInChildren<TextMesh>();
  //       text.text = data.Label;
