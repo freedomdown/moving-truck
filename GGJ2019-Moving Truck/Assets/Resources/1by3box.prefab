@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Width: 2
-  PickUpSnd: {fileID: 0}
+  PickUpSnd: {fileID: 5882433296224558154}
 --- !u!114 &5150552259158503552
 MonoBehaviour:
   m_ObjectHideFlags: 0
