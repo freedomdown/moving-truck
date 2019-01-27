@@ -104,7 +104,7 @@ public class DragAndDrop : MonoBehaviour
 
             SelectedObject.position = curPosition;
 
-            if (Input.GetMouseButtonUp(0))
+            if (!Input.GetMouseButton(0))
             {
                 OnMouseUp();//make sure it is actually called
             }
