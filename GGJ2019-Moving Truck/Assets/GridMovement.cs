@@ -53,6 +53,8 @@ public class GridMovement : MonoBehaviour
             RaycastHit2D hit = Physics2D.BoxCast(transform.position + (Vector3.right * RayCastOffset), new Vector2(RayCastSize, 0.2f), 0f, Vector2.up, RayCastDistance, LayerMask.GetMask("Items"));
             if (hit.collider != null && hit.collider.GetComponent<GridMovement>().GravityActive)
                 OnTopOfMe = hit.transform;
+            if (OnTopOfMe == transform)
+                OnTopOfMe = null;//make sure we haven't detected ourselves
         }
         else
         {
