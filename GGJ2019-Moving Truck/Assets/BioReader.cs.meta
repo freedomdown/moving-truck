@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2a1edc6042feabb49ae55f4867e0fdb4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - biosFile: {fileID: 4900000, guid: 1f41538979d661e46a9d338d062383d4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

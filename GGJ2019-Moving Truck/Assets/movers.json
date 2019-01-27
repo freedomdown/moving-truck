@@ -1,0 +1,455 @@
+{ "movers": [
+    {
+        "name": "Alexei",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": false,
+        "code": "alexei-leopard-purple-apricot",
+        "items": {
+            "chair": {
+                "value": 70,
+                "description": "My lazyboy, which was passed down from my grandpa"
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 5
+            },
+            "dresser": {
+                "value": 0
+            },
+            "art": {
+                "value": 100,
+                "description": "Fat cat painting, cuz I love it"
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 15
+            },
+            "sofa": {
+                "value": 20
+            },
+            "computer": {
+                "value": 70,
+                "description": "I have a pretty standard PC, but I do so much on it I do need it!"
+            },
+            "plants": {
+                "value": 30,
+                "description": "Little cat planter, which a friend brought me from Japan"
+            },
+            "console": {
+                "value": 100,
+                "description": "N64, my first console!"
+            },
+            "collectible": {
+                "value": 40
+            },
+            "headset": {
+                "value": 25
+            },
+            "plush": {
+                "value": 15,
+                "description": "A collection of cute pokemon plushies my brother gave me"
+            }
+        },
+        "extras": {
+            "first": "Knicknacks I've picked up travelling",
+            "second": "My kitchen supplies (pots and pans)",
+            "third" :"violin"
+        }
+    },
+    {
+        "name": "Konrad",
+        "style": "cosy",
+        "personal": false,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 15
+            },
+            "desk": {
+                "value": 10
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 10
+            },
+            "art": {
+                "value": 70,
+                "description": "My teddy"
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 100,
+                "description": "My bed is expensive"
+            },
+            "sofa": {
+                "value": 20
+            },
+            "computer": {
+                "value": 70,
+                "description": "Expensive"
+            },
+            "plants": {
+                "value": 5
+            },
+            "music": {
+                "value": 70,
+                "description": "Very expensive"
+            },
+            "journals": {
+                "value": 70,
+                "description": "Personal information"
+            },
+            "instrument": {
+                "value": 40,
+                "description": "Instruments are expensive"
+            },
+            "rug": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Teddy",
+            "second": "Bed",
+            "third" :"Phone"
+        }
+    },
+    {
+        "name": "Kevin",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 19
+            },
+            "shelves": {
+                "value": 100,
+                "description": "I can't live without my books! You can see someone's intelligence by what's on their shelves"
+            },
+            "dresser": {
+                "value": 10
+            },
+            "art": {
+                "value": 100,
+                "description": "Screen print posters of some old shows I played - What else am I gonna put on my wall?!"
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value": 25
+            },
+            "sofa": {
+                "value": 20
+            },
+            "computer": {
+                "value": 70
+            },
+            "plants": {
+                "value": 30
+            },
+            "console": {
+                "value": 70,
+                "description": "Old Nintendo games are a must!"
+            },
+            "collectible": {
+                "value": 40
+            },
+            "headset": {
+                "value": 5
+            },
+            "plush": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "Record Collection",
+            "second": "Book Collection",
+            "third" :"Guitar"
+        }
+    },
+    {
+        "name": "Jason C",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": false,
+        "code": "jason-falcon-red-nachos",
+        "items": {
+            "chair": {
+                "value": 70,
+                "description": "My chair has great back support for all the hours I spend on my computer"
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 25
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 15
+            },
+            "art": {
+                "value": 60,
+                "description": "I've got a few signed prints that I really like"
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 55,
+                "description": "Super cushy foam bed that took way too long to pick out"
+            },
+            "sofa": {
+                "value": 70,
+                "description": "I love my funky orange sofa! Comfy, stylish, and durable!"
+            },
+            "computer": {
+                "value": 30,
+                "description": "I use my computer all the time. Luckily my most important stuff is backed up remotely so it's not the greatest tragedy if something were happen to it. Good excuse to upgrade."
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 20
+            },
+            "collectible": {
+                "value": 100,
+                "description": "My MtG Cube is my most prized possession"
+            },
+            "headset": {
+                "value": 40
+            },
+            "plush": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "Media Server",
+            "second": "Stereo",
+            "third": "Homemade Salsa"
+        }
+    },
+    {
+        "name": "Owen McManus",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 25
+            },
+            "lamp": {
+                "value": 10
+            },
+            "desk": {
+                "value": 50,
+                "description": "It's where I put my computer"
+            },
+            "shelves": {
+                "value": 5
+            },
+            "dresser": {
+                "value": 20
+            },
+            "art": {
+                "value": 30
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 70,
+                "description": "If I can't sleep, I won't be happy. Without sleep I die."
+            },
+            "sofa": {
+                "value": 0
+            },
+            "computer": {
+                "value": 100,
+                "description": "Need it for work and play"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 20
+            },
+            "collectible": {
+                "value": 60,
+                "description": "I've carried them this far."
+            },
+            "headset": {
+                "value": 70,
+                "description": "Need it to play the games on the computer"
+            },
+            "plush": {
+                "value": 40
+            }
+        },
+        "extras": {
+            "first": "Hockey equipment",
+            "second": "TV and media center",
+            "third": "Stationary bike"
+        }
+    },
+    {
+        "name": "Ariel",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 5
+            },
+            "art": {
+                "value": 70,
+                "description": "Art collected from trips all over the world, and paintings by my aunt and grandmother"
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 30,
+                "description": "It's comfy!"
+            },
+            "sofa": {
+                "value": 20
+            },
+            "computer": {
+                "value": 30
+            },
+            "plants": {
+                "value": 100,
+                "description": "Plants - some of them I've had for a long time, and my keikis (baby orchids) I grew myself and am proud of <3"
+            },
+            "music": {
+                "value": 70,
+                "description": "Music equipment also a big part of my partner's accountrements. Can't go without it!"
+            },
+            "journals": {
+                "value": 70,
+                "description": "Journals from when I was a kid and travel diaries"
+            },
+            "instrument": {
+                "value": 70,
+                "description": "My partner is a musician - they'd have to come!"
+            },
+            "rug": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "Pet stuff! My crew needs their beds",
+            "second": "Gaming consoles",
+            "third" : "Books - part of the decor and of feeling settled"
+        }
+    },
+    {
+        "name": "Ryan",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 40
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 70, 
+                "description": "My family's old kitchen table"
+            },
+            "shelves": {
+                "value": 15
+            },
+            "dresser": {
+                "value": 15
+            },
+            "art": {
+                "value": 5
+            },
+            "sidetable": {
+                "value": 25
+            },
+            "bed": {
+                "value": 70,
+                "description": "My bed, I like to sleep in it"
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 100,
+                "description": "My laptop"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "PS4, I use it to play games with friends"
+            },
+            "collectible": {
+                "value": 60,
+                "description": "Comics and graphic novels"
+            },
+            "headset": {
+                "value": 20
+            },
+            "plush": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "D&D Books",
+            "second": "Board Games",
+            "third": "Vintage Games Console"
+        }
+    }
+]
+}
