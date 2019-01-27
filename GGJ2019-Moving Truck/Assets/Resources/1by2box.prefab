@@ -221,7 +221,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6022800722066569684}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 19380884b04a90447b7391eca402e04d, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -321,6 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Strength: 4
   Weight: 1
+  DestructionMagnitutde: 0.02
   breakSnd: {fileID: 2275404308710427858}
 --- !u!82 &2275404308710427858
 AudioSource:
