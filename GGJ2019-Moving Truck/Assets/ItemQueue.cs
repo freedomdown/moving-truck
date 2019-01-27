@@ -80,8 +80,14 @@ public class ItemQueue : MonoBehaviour
     }
 
     private bool QueueHasSpaceForNext() {
-        return items.Count >0 
-            && enqueued.Sum(item => item.transform.localScale.x) + PeekData().Width <= QueueLength;
+        float currentQueueLen = 0;
+        foreach (GameObject item in enqueued) {
+            ItemClick gm = item.GetComponent<ItemClick>();
+            currentQueueLen += gm.Width;
+        }
+        return items.Count > 0 && currentQueueLen + PeekData().Width <= QueueLength;
+//        return items.Count > 0 
+  //          && enqueued.Sum(item => item.GetComponent<GridMovement>().GridSpacing) + PeekData().Width <= QueueLength;
     }
 
     internal void RemoveFromQueue(Transform selectedObject) {
