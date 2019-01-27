@@ -31,24 +31,26 @@ public class ItemQueue : MonoBehaviour
         };
  
         items = Shuffle(new List<ItemData>() {
-            { new ItemData(2, 2, "Chair", 0, 100, 0) },
-            { new ItemData(1, 3, "Lamp", 10, 60, 0) },
-            { new ItemData(2, 2, "Desk", 50, 80, 10) },
-            { new ItemData(2, 3, "Shelves", 50, 80, 10) },
-            { new ItemData(2, 2, "Dresser", 50, 80, 10) },
-            { new ItemData(2, 2, "Side table", 50, 80, 10) },
+            { new ItemData(1, 1, "Art", 50, 80, 10) },
             { new ItemData(3, 2, "Bed", 50, 80, 10) },
-            { new ItemData(2, 3, "Sofa", 50, 80, 10) },
-            { new ItemData(1, 1, "Computer", 50, 80, 10) },
-            { new ItemData(1, 2, "Plants", 50, 80, 10) },
-            { new ItemData(1, 1, "Journals", 50, 80, 10) },
-            { new ItemData(2, 2, "Rug", 50, 80, 10) },
-            { new ItemData(1, 2, "Instrument", 50, 80, 10) },
-            { new ItemData(2, 2, "Stereo", 50, 80, 10) },
-            { new ItemData(1, 1, "Console", 50, 80, 10) },
+            { new ItemData(2, 2, "Chair", 0, 100, 0) },
             { new ItemData(1, 1, "Collectibles", 50, 80, 10) },
-            { new ItemData(1, 1, "Headset", 50, 80, 10) },
-            { new ItemData(1, 1, "Plushy", 50, 80, 10) },
+            { new ItemData(1, 1, "Comics", 50, 80, 10) },
+            { new ItemData(1, 1, "Computer", 50, 80, 10) },
+            { new ItemData(1, 1, "Console", 50, 80, 10) },
+            { new ItemData(2, 3, "Couch", 50, 80, 10) },
+            { new ItemData(2, 2, "Desk", 50, 80, 10) },
+            { new ItemData(2, 2, "Dresser", 50, 80, 10) },
+            { new ItemData(1, 3, "Lamp", 10, 60, 0) },
+            { new ItemData(1, 3, "Plant", 50, 80, 10) },
+            { new ItemData(1, 1, "Plush", 50, 80, 10) },
+            { new ItemData(2, 3, "Shelves", 50, 80, 10) },
+            { new ItemData(2, 2, "SideTable", 50, 80, 10) },
+            { new ItemData(2, 2, "Stereo", 50, 80, 10) },
+            { new ItemData(2, 2, "Table", 50, 80, 10) },
+//            { new ItemData(1, 1, "Journals", 50, 80, 10) },
+//            { new ItemData(2, 2, "Rug", 50, 80, 10) },
+//            { new ItemData(1, 2, "Instrument", 50, 80, 10) },
         });
 
         while (QueueHasSpaceForNext()) { SpawnNextItem(); }
@@ -63,8 +65,6 @@ public class ItemQueue : MonoBehaviour
                 float y = gameObject.transform.position.y;
                 item.transform.position = new Vector3(x, y, 0);
                 offset += width * 1.1f;
-
-//                offset += item.transform.lossyScale.x;
             }
             drawQueue = false;
         }
@@ -111,10 +111,11 @@ public class ItemQueue : MonoBehaviour
         }
         ItemData data = PopData();
 
-        GameObject item = Instantiate(prefabs[Tuple.Create(data.Width, data.Height)]);
+
+        GameObject item = Instantiate(Resources.Load("Gamer/" + data.Label) as GameObject);
         item.transform.SetParent(ItemsGroup);
-        TextMesh text = item.GetComponentInChildren<TextMesh>();
-        text.text = data.Label;
+//        TextMesh text = item.GetComponentInChildren<TextMesh>();
+ //       text.text = data.Label;
         ItemScore score = item.GetComponentInChildren<ItemScore>();
         score.Joy = data.Joy;
         score.Utility = data.Utility;
