@@ -13,6 +13,7 @@ public class GridMovement : MonoBehaviour
     private Rigidbody2D body;
     private BoxCollider2D col;
     private Durability dur;
+    public float onTopWeight = 0f;
 
     [Header("RayCast")]
     public Transform OnTopOfMe;//what obj is on top of this one, if any
@@ -50,13 +51,16 @@ public class GridMovement : MonoBehaviour
         //find object directly "up" of us, if any
         if (OnTopOfMe == null)
         {
-            RaycastHit2D hit = Physics2D.BoxCast(transform.position + (Vector3.right * RayCastOffset), new Vector2(RayCastSize, 0.2f), 0f, Vector2.up, RayCastDistance);
+            RaycastHit2D hit = Physics2D.BoxCast(transform.position + (Vector3.right * RayCastOffset), new Vector2(RayCastSize, 0.2f), 0f, Vector2.up, RayCastDistance, LayerMask.GetMask("Items"));
             if (hit.collider != null)
                 OnTopOfMe = hit.transform;
-
+        }
+        else
+        {
             if (dur != null)
             {
                 float weightOnTop = GetWeight();//get the total weight on top of me
+                onTopWeight = weightOnTop;
                 if (dur.IsFragile && weightOnTop >= 2f)//is weight high eneough to break a fragile thing?
                     dur.Break();
                 else if (weightOnTop >= 4f)//is weight high enough to break normal thing
@@ -79,6 +83,7 @@ public class GridMovement : MonoBehaviour
             Destroy(GetComponent<ItemClick>());
         col.isTrigger = false;
         col.enabled = true;
+        gameObject.layer = LayerMask.NameToLayer("Items");
     }
 
     public float GetWeight()

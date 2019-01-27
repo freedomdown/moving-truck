@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 6022800722066569675}
   - component: {fileID: 7285132013221304119}
   - component: {fileID: 1654014122538646917}
+  - component: {fileID: 9003205616811243180}
   m_Layer: 0
   m_Name: 3by1box
   m_TagString: Untagged
@@ -271,8 +272,9 @@ MonoBehaviour:
   GravityActive: 0
   Gravity: 20
   GridSpacing: 1
+  onTopWeight: 0
   OnTopOfMe: {fileID: 0}
-  RayCastSize: 0.88
+  RayCastSize: 2.82
   RayCastDistance: 0.43
   RayCastOffset: 0
 --- !u!114 &7285132013221304119
@@ -302,3 +304,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Width: 3
+--- !u!114 &9003205616811243180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022800722066569684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08acaa0441a1aee4c92d208f2a2bf562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsFragile: 0
+  Weight: 2

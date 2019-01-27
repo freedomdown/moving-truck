@@ -12,5 +12,7 @@ public class Durability : MonoBehaviour
     {
         //too much weight
         //Destroy self?
+        Destroy(gameObject);
+        Debug.Log("Break!");
     }
 }

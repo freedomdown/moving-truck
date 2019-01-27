@@ -38,7 +38,7 @@ public class ItemQueue : MonoBehaviour
 
     private void SpawnNextItem() {
         ItemData data = items[Random.Range(0, items.Count)];
-        items.Remove(data);
+        //items.Remove(data);
 
         GameObject item = Instantiate(prefabs[Tuple.Create(data.Width, data.Height)]);
         item.transform.position = getCurrentPosition();
