@@ -60,7 +60,7 @@ public class GridMovement : MonoBehaviour
         {
             if (dur != null)
             {
-                float weightOnTop = GetWeight();//get the total weight on top of me
+                float weightOnTop = GetWeight(null);//get the total weight on top of me
                 weightOnTop -= dur.Weight;//remove own weight from total
                 if (weightOnTop >= dur.Strength)//is weight high enough to break me
                     dur.Break();
@@ -85,9 +85,12 @@ public class GridMovement : MonoBehaviour
         gameObject.layer = LayerMask.NameToLayer("Items");
     }
 
-    public float GetWeight()
+    public float GetWeight(GameObject caller)
     {
         if (GravityActive == false)
+            return 0f;
+
+        if (caller == gameObject)
             return 0f;
 
         float topWeight = 0f;
@@ -95,7 +98,7 @@ public class GridMovement : MonoBehaviour
         if (OnTopOfMe != null)
         {
             //get weight
-            topWeight = OnTopOfMe.GetComponent<GridMovement>().GetWeight();
+            topWeight = OnTopOfMe.GetComponent<GridMovement>().GetWeight(gameObject);
         }
 
         //then add your own weight to the total weight and pass it along
