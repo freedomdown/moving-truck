@@ -5,7 +5,7 @@ using UnityEngine;
 public class ItemClick : MonoBehaviour
 {
     public int Width = 1;
-
+    public AudioSource PickUpSnd;
 
     public void OnMouseDown()
     {
@@ -14,6 +14,7 @@ public class ItemClick : MonoBehaviour
         drag.SelectedObject = transform;
         drag.ObjectWidth = Width;
         drag.OriginalPos = transform.position;
+        PickUpSnd.Play();
 
         GetComponent<BoxCollider2D>().enabled = false;
     }

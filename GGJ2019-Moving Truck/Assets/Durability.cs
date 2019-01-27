@@ -5,8 +5,10 @@ using UnityEngine;
 [RequireComponent(typeof(GridMovement))]
 public class Durability : MonoBehaviour
 {
-    public bool IsFragile = false;
+    public float Strength = 4f;
     public float Weight = 1f;
+    public AudioSource breakSnd;
+
 
     public void Break()
     {
@@ -14,5 +16,6 @@ public class Durability : MonoBehaviour
         //Destroy self?
         Destroy(gameObject);
         Debug.Log("Break!");
+        breakSnd.Play();
     }
 }

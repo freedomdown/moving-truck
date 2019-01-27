@@ -18,6 +18,11 @@ public class DragAndDrop : MonoBehaviour
     [Header("Drop States")]
     public bool SafeToDrop = false;//is it safe to drop an item
     public bool SafeToTrash = false;//is it safe to drop it in the trash
+
+    [Header("Sounds")]
+    public AudioSource dropSnd;
+    public AudioSource TrashSnd;
+
     
     //public void OnMouseDrag()
     //{
@@ -117,6 +122,7 @@ public class DragAndDrop : MonoBehaviour
                 score.state = ItemScore.State.OnTruck;
                 itemQueue.RemoveFromQueue(SelectedObject);
                 SelectedObject = null;//is no longer selected
+                dropSnd.Play();
             }
         }
         else if (SafeToTrash)//drop item in trash
@@ -125,6 +131,7 @@ public class DragAndDrop : MonoBehaviour
             {
                 //Need to do anything with item before we destroy it?
                 Destroy(SelectedObject.gameObject);
+                TrashSnd.Play();
             }
         }
         else//item was dropped somewhere else on screen

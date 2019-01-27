@@ -13,7 +13,6 @@ public class GridMovement : MonoBehaviour
     private Rigidbody2D body;
     private BoxCollider2D col;
     private Durability dur;
-    public float onTopWeight = 0f;
 
     [Header("RayCast")]
     public Transform OnTopOfMe;//what obj is on top of this one, if any
@@ -60,10 +59,8 @@ public class GridMovement : MonoBehaviour
             if (dur != null)
             {
                 float weightOnTop = GetWeight();//get the total weight on top of me
-                onTopWeight = weightOnTop;
-                if (dur.IsFragile && weightOnTop >= 2f)//is weight high eneough to break a fragile thing?
-                    dur.Break();
-                else if (weightOnTop >= 4f)//is weight high enough to break normal thing
+                weightOnTop -= dur.Weight;//remove own weight from total
+                if (weightOnTop >= dur.Strength)//is weight high enough to break me
                     dur.Break();
             }
         }
