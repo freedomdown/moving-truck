@@ -111,11 +111,10 @@ public class DragAndDrop : MonoBehaviour
         }
     }
 
-    public void OnMouseUp()
-    {
-        if (SafeToDrop)//actually drop item in truck
-        {
-            if (SelectedObject != null)
+    public void OnMouseUp() {
+        if (SelectedObject != null) {
+            bool gravityActive = SelectedObject.GetComponent<GridMovement>().GravityActive;
+            if (SafeToDrop && !gravityActive)//actually drop item in truck
             {
                 SelectedObject.SendMessage("Fall");//tell object to fall
                 ItemScore score = SelectedObject.GetComponentInChildren(typeof(ItemScore)) as ItemScore;
@@ -124,10 +123,7 @@ public class DragAndDrop : MonoBehaviour
                 SelectedObject = null;//is no longer selected
                 dropSnd.Play();
             }
-        }
-        else if (SafeToTrash)//drop item in trash
-        {
-            if (SelectedObject != null)
+            else if (SafeToTrash && !gravityActive)//drop item in trash
             {
                 itemQueue.RemoveFromQueue(SelectedObject);
                 TrashSnd.Play();
@@ -135,13 +131,10 @@ public class DragAndDrop : MonoBehaviour
                 Destroy(SelectedObject.gameObject, TrashSnd.clip.length);
                 SelectedObject = null;//is no longer selected
             }
-        }
-        else//item was dropped somewhere else on screen
-        {
-            //do something other than drop it
-            //Back to selection thing?
-            if (SelectedObject != null)
+            else//item was dropped somewhere else on screen
             {
+                //do something other than drop it
+                //Back to selection thing?
                 SelectedObject.position = OriginalPos;
                 SelectedObject.GetComponent<BoxCollider2D>().enabled = true;
                 SelectedObject = null;
