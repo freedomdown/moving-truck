@@ -12,6 +12,7 @@ public class GridMovement : MonoBehaviour
 
     private Rigidbody2D body;
     private BoxCollider2D col;
+    private Durability dur;
 
     [Header("RayCast")]
     public Transform OnTopOfMe;//what obj is on top of this one, if any
@@ -28,6 +29,8 @@ public class GridMovement : MonoBehaviour
 
         col = GetComponent<BoxCollider2D>();
         col.isTrigger = true;
+
+        dur = GetComponent<Durability>();
     }
 
     // Update is called once per frame
@@ -42,9 +45,7 @@ public class GridMovement : MonoBehaviour
 
         //then fall if able
         if (GravityActive)
-        {
             body.AddForce(Axis * (Gravity * body.mass));//add force to push body down
-        }
 
         //find object directly "up" of us, if any
         if (OnTopOfMe == null)
@@ -52,6 +53,15 @@ public class GridMovement : MonoBehaviour
             RaycastHit2D hit = Physics2D.BoxCast(transform.position + (Vector3.right * RayCastOffset), new Vector2(RayCastSize, 0.2f), 0f, Vector2.up, RayCastDistance);
             if (hit.collider != null)
                 OnTopOfMe = hit.transform;
+
+            if (dur != null)
+            {
+                float weightOnTop = GetWeight();//get the total weight on top of me
+                if (dur.IsFragile && weightOnTop >= 2f)//is weight high eneough to break a fragile thing?
+                    dur.Break();
+                else if (weightOnTop >= 4f)//is weight high enough to break normal thing
+                    dur.Break();
+            }
         }
     }
 
@@ -69,5 +79,22 @@ public class GridMovement : MonoBehaviour
             Destroy(GetComponent<ItemClick>());
         col.isTrigger = false;
         col.enabled = true;
+    }
+
+    public float GetWeight()
+    {
+        float topWeight = 0f;
+
+        if (OnTopOfMe != null)
+        {
+            //get weight
+            topWeight = OnTopOfMe.GetComponent<GridMovement>().GetWeight();
+        }
+
+        //then add your own weight to the total weight and pass it along
+        if (dur != null)
+            return dur.Weight + topWeight; //return my weight + weight from obj on top of me
+        else
+            return 1f + topWeight;
     }
 }

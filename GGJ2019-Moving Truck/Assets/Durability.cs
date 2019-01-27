@@ -6,17 +6,11 @@ using UnityEngine;
 public class Durability : MonoBehaviour
 {
     public bool IsFragile = false;
-    public bool IsHeavy = false;
+    public float Weight = 1f;
 
-    // Start is called before the first frame update
-    void Start()
+    public void Break()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //too much weight
+        //Destroy self?
     }
 }
