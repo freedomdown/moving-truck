@@ -9,6 +9,8 @@ public class GameScore : MonoBehaviour
     public Transform ItemsGroup;
     public Text utilityScore;
     public Text joyScore;
+    public ItemQueue queue;
+    public bool AllDone = false;
     private int currentUtility = 0;
     private int currentJoy = 0;
 
@@ -30,5 +32,9 @@ public class GameScore : MonoBehaviour
         }
         joyScore.text = "Joy\n" + currentJoy;
         utilityScore.text = "Utility\n" + currentUtility;
+
+        if (queue.enqueued.Count == 0 && currentJoy == joy && currentUtility == utility) {
+            AllDone = true;
+        }
     }
 }
