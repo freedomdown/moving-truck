@@ -450,6 +450,200 @@
             "second": "Board Games",
             "third": "Vintage Games Console"
         }
+    },
+    {
+        "name": "Kit",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 30
+            },
+            "lamp": {
+                "value": 15
+            },
+            "desk": {
+                "value": 30,
+                "description": "I need something that defines a space as 'the place where I do work'" 
+            },
+            "shelves": {
+                "value": 30,
+                "description": "It's hard to find my stuff when it's all on the floor"
+            },
+            "dresser": {
+                "value": 40,
+                "description": "It's hard to find my clothes when they're all on the floor"
+            },
+            "art": {
+                "value": 25
+            },
+            "sidetable": {
+                "value": 20
+            },
+            "bed": {
+                "value": 100,
+                "description": "I hate sleeping on the floor"
+            },
+            "sofa": {
+                "value": 100,
+                "description": "I need somewhere to lie down and regret things"
+            },
+            "computer": {
+                "value": 100,
+                "description": "my entire life is on there"
+            },
+            "plants": {
+                "value": 0
+            },
+            "music": {
+                "value": 5
+            },
+            "journals": {
+                "value": 0
+            },
+            "instrument": {
+                "value": 5
+            },
+            "rug": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "Antique vanity",
+            "second": "Kitchen stuff",
+            "third" :"Cat"
+        }
+    },
+    {
+        "name": "Mister Lloyd",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 20
+            },
+            "desk": {
+                "value": 20
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 5
+            },
+            "art": {
+                "value": 5
+            },
+            "sidetable": {
+                "value": 20,
+                "description": "I need something to keep the plants on so I can watch them."
+            },
+            "bed": {
+                "value": 25,
+                "description": "Even a green creature hating, plushy controlled creature such as myself must sleep."
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 60
+            },
+            "plants": {
+                "value": 100,
+                "description": "Important so I can torture them for being godless green creatures"
+            },
+            "console": {
+                "value": 20
+            },
+            "collectible": {
+                "value": 30
+            },
+            "headset": {
+                "value": 70,
+                "description": "I can use this to scan my brain for manipulating the universe. I can use my headsets to entrap the souls of the unsuspecting, to feed them to my plushy."
+            },
+            "plush": {
+                "value": 100,
+                "description": "They speak to me and tell me to do things"
+            }
+        },
+        "extras": {
+            "first": "The soul of a sapling I keep in a jar.",
+            "second": "Jackets and clothing for my plushies so they don't get cold.",
+            "third": "Tin foil"
+        }
+    },
+    {
+        "name": "Bio",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 60,
+                "description": "I have a VERY comfortable chair, I sit in it a lot"
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 60,
+                "description": "Kind of need my desk to fit all my monitors"
+            },
+            "shelves": {
+                "value": 15
+            },
+            "dresser": {
+                "value": 0
+            },
+            "art": {
+                "value": 40
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value": 25,
+                "description": "I am a very sleepy boy"
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 100,
+                "description": "I probably have a gaming addiction to be honest"
+            },
+            "plants": {
+                "value": 10
+            },
+            "console": {
+                "value": 40,
+                "description": "My system is ALSO how I make my money"
+            },
+            "collectible": {
+                "value": 30
+            },
+            "headset": {
+                "value": 100,
+                "description": "They are things I use a LOT, I've got them set up juuuust how I like them"
+            },
+            "plush": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "Hairbrush/Toiletries",
+            "second": "Clothes",
+            "third": "Cooking pans/equipment"
+        }
     }
 ]
 }
