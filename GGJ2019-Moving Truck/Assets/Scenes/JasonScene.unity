@@ -884,7 +884,7 @@ MonoBehaviour:
   joyScore: {fileID: 239780918}
   queue: {fileID: 1502042418}
   AllDone: 0
-  name: {fileID: 178673325}
+  moverName: {fileID: 178673325}
   personality: {fileID: 2139675354}
 --- !u!1 &924375177
 GameObject:
