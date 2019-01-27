@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 public class ItemQueue : MonoBehaviour
 {
     public DragAndDrop dragAndDrop;
+    public Transform ItemsGroup;
 
     private Dictionary<Tuple<int, int>, GameObject> prefabs;
 
@@ -97,6 +98,7 @@ public class ItemQueue : MonoBehaviour
         ItemData data = PopData();
 
         GameObject item = Instantiate(prefabs[Tuple.Create(data.Width, data.Height)]);
+        item.transform.SetParent(ItemsGroup);
         TextMesh text = item.GetComponentInChildren(typeof(TextMesh)) as TextMesh;
         text.text = data.Label;
         ItemScore score = item.GetComponentInChildren(typeof(ItemScore)) as ItemScore;
