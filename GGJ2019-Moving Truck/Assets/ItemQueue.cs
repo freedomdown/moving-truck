@@ -35,31 +35,28 @@ public class ItemQueue : MonoBehaviour
             { new ItemData(2, 2, "Computer", 50, 80, 10) },
             { new ItemData(3, 2, "Bed", 50, 80, 10) },
             { new ItemData(1, 2, "Lamp", 50, 80, 10) },
-            { new ItemData(1,1, "Collectables", 50, 80, 10) },
+            { new ItemData(1, 1, "Collectables", 50, 80, 10) },
         });
 
+        while (QueueHasSpaceForNext()) { SpawnNextItem(); }
     }
 
-    private void Update()
-    {
-        float offset = 0;
-        if (drawQueue)
-        {
-            foreach (GameObject item in enqueued)
-            {
+    private void Update() {
+        if (drawQueue) {
+            float offset = 0;
+            foreach (GameObject item in enqueued) {
                 float x = gameObject.transform.position.x - offset;
                 float y = gameObject.transform.position.y;
                 item.transform.position = new Vector3(x, y, 0);
-                offset += item.transform.localScale.x;
+                offset += item.transform.lossyScale.x;
             }
+            drawQueue = false;
         }
     }
 
-    private List<T> Shuffle<T>(List<T> list)
-    {
+    private List<T> Shuffle<T>(List<T> list) {
         int n = list.Count;
-        while (n > 1)
-        {
+        while (n > 1) {
             int k = Random.Range(0, n);
             n--;
             T value = list[k];
@@ -69,30 +66,32 @@ public class ItemQueue : MonoBehaviour
         return list;
     }
 
-    private bool QueueHasSpaceForNext()
-    {
-        return enqueued.Sum(item => item.transform.localScale.x) + PeekData().Width <= QueueLength;
+    private bool QueueHasSpaceForNext() {
+        return items.Count >0 
+            && enqueued.Sum(item => item.transform.localScale.x) + PeekData().Width <= QueueLength;
+    }
+
+    internal void RemoveFromQueue(Transform selectedObject) {
+        enqueued.Remove(selectedObject.gameObject);
+        SpawnNextItem();
     }
 
     private void OnMouseDown() {
         //SpawnNextItem();
     }
 
-    private ItemData PopData()
-    {
+    private ItemData PopData() {
         ItemData item = items[items.Count - 1];
         items.RemoveAt(items.Count - 1);
         return item;
     }
 
-    private ItemData PeekData()
-    {
+    private ItemData PeekData() {
         return items[items.Count - 1];
     }
 
     private void SpawnNextItem() {
-        if (!QueueHasSpaceForNext())
-        {
+        if (!QueueHasSpaceForNext()) {
             return;
         }
         ItemData data = PopData();
@@ -103,6 +102,8 @@ public class ItemQueue : MonoBehaviour
         ItemScore score = item.GetComponentInChildren(typeof(ItemScore)) as ItemScore;
         score.Joy = data.Joy;
         score.Utility = data.Utility;
+        enqueued.Add(item);
+        drawQueue = true;
     }
 
     private static Vector3 getCurrentPosition() {

@@ -409,6 +409,7 @@ MonoBehaviour:
   SelectedObject: {fileID: 0}
   ObjectWidth: 2
   OriginalPos: {x: 0, y: 0, z: 0}
+  itemQueue: {fileID: 1502042418}
   GridSpacing: 1
   LeftLimit: -1
   RightLimit: 1
@@ -701,6 +702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragAndDrop: {fileID: 924375178}
+  QueueLength: 8
+  enqueued: []
 --- !u!1 &1531716962
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,6 +929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1969303774}
   - component: {fileID: 1969303776}
+  - component: {fileID: 1969303775}
   m_Layer: 8
   m_Name: drop zone
   m_TagString: Untagged
@@ -948,6 +952,21 @@ Transform:
   m_Father: {fileID: 924375180}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1969303775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969303773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 865dd72e5e7735c43a500408f7b76447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Display: {fileID: 1845685268}
+  draggingArea: {fileID: 924375178}
+  Trash: 0
 --- !u!61 &1969303776
 BoxCollider2D:
   m_ObjectHideFlags: 0
