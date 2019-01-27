@@ -58,10 +58,13 @@ public class ItemQueue : MonoBehaviour
         if (drawQueue) {
             float offset = 0;
             foreach (GameObject item in enqueued) {
-                float x = gameObject.transform.position.x - offset;
+                float width = item.GetComponent<ItemClick>().Width;
+                float x = gameObject.transform.position.x - offset - width;
                 float y = gameObject.transform.position.y;
                 item.transform.position = new Vector3(x, y, 0);
-                offset += item.transform.lossyScale.x;
+                offset += width * 1.1f;
+
+//                offset += item.transform.lossyScale.x;
             }
             drawQueue = false;
         }
@@ -82,21 +85,14 @@ public class ItemQueue : MonoBehaviour
     private bool QueueHasSpaceForNext() {
         float currentQueueLen = 0;
         foreach (GameObject item in enqueued) {
-            ItemClick gm = item.GetComponent<ItemClick>();
-            currentQueueLen += gm.Width;
+            currentQueueLen += item.GetComponent<ItemClick>().Width;
         }
         return items.Count > 0 && currentQueueLen + PeekData().Width <= QueueLength;
-//        return items.Count > 0 
-  //          && enqueued.Sum(item => item.GetComponent<GridMovement>().GridSpacing) + PeekData().Width <= QueueLength;
     }
 
     internal void RemoveFromQueue(Transform selectedObject) {
         enqueued.Remove(selectedObject.gameObject);
         SpawnNextItem();
-    }
-
-    private void OnMouseDown() {
-        //SpawnNextItem();
     }
 
     private ItemData PopData() {
