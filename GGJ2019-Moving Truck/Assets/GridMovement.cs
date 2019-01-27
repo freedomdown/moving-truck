@@ -48,10 +48,10 @@ public class GridMovement : MonoBehaviour
             body.AddForce(Axis * (Gravity * body.mass));//add force to push body down
 
         //find object directly "up" of us, if any
-        if (OnTopOfMe == null)
+        if (OnTopOfMe == null && GravityActive)
         {
             RaycastHit2D hit = Physics2D.BoxCast(transform.position + (Vector3.right * RayCastOffset), new Vector2(RayCastSize, 0.2f), 0f, Vector2.up, RayCastDistance, LayerMask.GetMask("Items"));
-            if (hit.collider != null)
+            if (hit.collider != null && hit.collider.GetComponent<GridMovement>().GravityActive)
                 OnTopOfMe = hit.transform;
         }
         else
@@ -85,6 +85,9 @@ public class GridMovement : MonoBehaviour
 
     public float GetWeight()
     {
+        if (GravityActive == false)
+            return 0f;
+
         float topWeight = 0f;
 
         if (OnTopOfMe != null)
