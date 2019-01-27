@@ -13,7 +13,7 @@ public class ItemQueue : MonoBehaviour
 
     private List<ItemData> items;
 
-    public int QueueLength = 8;
+    public int QueueLength = 6;
     public List<GameObject> enqueued = new List<GameObject>();
     private bool drawQueue = false;
 
@@ -64,7 +64,7 @@ public class ItemQueue : MonoBehaviour
                 float x = gameObject.transform.position.x - offset - width;
                 float y = gameObject.transform.position.y;
                 item.transform.position = new Vector3(x, y, 0);
-                offset += width * 1.1f;
+                offset += width * 1.2f;
             }
             drawQueue = false;
         }
