@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WindowMover : MonoBehaviour
 {
-    public float SnapPoint = 0.1f;
-    public float MoveSpeed = 1f;
+    public float SnapPoint = 5f;
+    public float MoveSpeed = 2f;
     public float distance = 400f;
     private bool Moved = false;
     private Vector3 TargetPosition;
