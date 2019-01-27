@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -10,6 +11,10 @@ public class ItemQueue : MonoBehaviour
     private Dictionary<Tuple<int, int>, GameObject> prefabs;
 
     private List<ItemData> items;
+
+    public int QueueLength = 8;
+    public List<GameObject> enqueued = new List<GameObject>();
+    private bool drawQueue = false;
 
     private void Start() {
         prefabs = new Dictionary<Tuple<int, int>, GameObject>() {
@@ -24,24 +29,75 @@ public class ItemQueue : MonoBehaviour
             { Tuple.Create(3, 3), Resources.Load("3by3box") as GameObject },
         };
 
-        items = new List<ItemData>() {
+        items = Shuffle(new List<ItemData>() {
             { new ItemData(1, 1, "Cards", 0, 100, 0) },
             { new ItemData(2, 3, "Book Shelf", 10, 60, 0) },
             { new ItemData(2, 2, "Computer", 50, 80, 10) },
-        };
+            { new ItemData(3, 2, "Bed", 50, 80, 10) },
+            { new ItemData(1, 2, "Lamp", 50, 80, 10) },
+            { new ItemData(1,1, "Collectables", 50, 80, 10) },
+        });
 
+    }
+
+    private void Update()
+    {
+        float offset = 0;
+        if (drawQueue)
+        {
+            foreach (GameObject item in enqueued)
+            {
+                float x = gameObject.transform.position.x - offset;
+                float y = gameObject.transform.position.y;
+                item.transform.position = new Vector3(x, y, 0);
+                offset += item.transform.localScale.x;
+            }
+        }
+    }
+
+    private List<T> Shuffle<T>(List<T> list)
+    {
+        int n = list.Count;
+        while (n > 1)
+        {
+            int k = Random.Range(0, n);
+            n--;
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
+        return list;
+    }
+
+    private bool QueueHasSpaceForNext()
+    {
+        return enqueued.Sum(item => item.transform.localScale.x) + PeekData().Width <= QueueLength;
     }
 
     private void OnMouseDown() {
-        SpawnNextItem();
+        //SpawnNextItem();
+    }
+
+    private ItemData PopData()
+    {
+        ItemData item = items[items.Count - 1];
+        items.RemoveAt(items.Count - 1);
+        return item;
+    }
+
+    private ItemData PeekData()
+    {
+        return items[items.Count - 1];
     }
 
     private void SpawnNextItem() {
-        ItemData data = items[Random.Range(0, items.Count)];
-        //items.Remove(data);
+        if (!QueueHasSpaceForNext())
+        {
+            return;
+        }
+        ItemData data = PopData();
 
         GameObject item = Instantiate(prefabs[Tuple.Create(data.Width, data.Height)]);
-        item.transform.position = getCurrentPosition();
         TextMesh text = item.GetComponentInChildren(typeof(TextMesh)) as TextMesh;
         text.text = data.Label;
         ItemScore score = item.GetComponentInChildren(typeof(ItemScore)) as ItemScore;
