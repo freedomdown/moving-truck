@@ -724,8 +724,10 @@ MonoBehaviour:
   ItemsGroup: {fileID: 84107777}
   utilityScore: {fileID: 31928696}
   joyScore: {fileID: 239780918}
-  queue: {fileID: 0}
+  queue: {fileID: 1502042418}
   AllDone: 0
+  moverName: {fileID: 0}
+  personality: {fileID: 0}
 --- !u!1 &924375177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,6 +1394,7 @@ MonoBehaviour:
   ItemsGroup: {fileID: 84107777}
   QueueLength: 6
   enqueued: []
+  BioReader: {fileID: 0}
 --- !u!1 &1531716962
 GameObject:
   m_ObjectHideFlags: 0

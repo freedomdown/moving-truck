@@ -39,7 +39,7 @@ public class BioReader : MonoBehaviour
         foreach (Dictionary<string, object> userD in moversRaw)
         {
             var newMover = new Mover();
-            newMover.name = (string)userD["name"];
+            newMover.moverName = (string)userD["name"];
             newMover.isGamer = ((string)userD["style"]).Equals("gamer");
             newMover.personality = GetPersonalityText(newMover, userD);
             if (userD.ContainsKey("code"))
@@ -69,7 +69,7 @@ public class BioReader : MonoBehaviour
 
     private string GetPersonalityText(Mover newMover, Dictionary<string, object> userD)
     {
-        var personalityText = newMover.name;
+        var personalityText = newMover.moverName;
         if (newMover.isGamer)
         {
             personalityText += "'s home is a tech hideout, ";
@@ -107,7 +107,7 @@ public class BioReader : MonoBehaviour
 
     public class Mover
     {
-        public string name;
+        public string moverName;
         public bool isGamer;
         public string personality;
         public string code;
