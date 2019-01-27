@@ -272,6 +272,7 @@ MonoBehaviour:
   GravityActive: 0
   Gravity: 20
   GridSpacing: 1
+  onTopWeight: 0
   OnTopOfMe: {fileID: 0}
   RayCastSize: 0.88
   RayCastDistance: 0.43
@@ -290,6 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joy: 0
   Utility: 0
+  state: 0
 --- !u!114 &3142276884337998506
 MonoBehaviour:
   m_ObjectHideFlags: 0
