@@ -13,6 +13,7 @@ public class GameScore : MonoBehaviour
     public bool AllDone = false;
     public Text moverName;
     public Text personality;
+    public Text specialItems;
     private int currentUtility = 0;
     private int goalUtility = 300;
     private int currentJoy = 0;
@@ -22,6 +23,12 @@ public class GameScore : MonoBehaviour
     {
         moverName.text = queue.mover.moverName;
         personality.text = queue.mover.personality;
+        string specialitemstring = "";
+        foreach (string text in queue.mover.specialItems)
+        {
+            specialitemstring += text + "\n";
+        }
+        specialItems.text = specialitemstring;
 
         ItemScore[] scores = ItemsGroup.GetComponentsInChildren<ItemScore>();
         int utility = scores.Sum(score => score.GetUtility());
