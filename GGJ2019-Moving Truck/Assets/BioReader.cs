@@ -38,9 +38,10 @@ public class BioReader : MonoBehaviour
         moversRaw = (List<object>)(((Dictionary<string, object>)dict)["movers"]);
         foreach (Dictionary<string, object> userD in moversRaw)
         {
-            var newMover = new Mover();
-            newMover.moverName = (string)userD["name"];
-            newMover.isGamer = ((string)userD["style"]).Equals("gamer");
+            Mover newMover = new Mover {
+                moverName = (string)userD["name"],
+                isGamer = ((string)userD["style"]).Equals("gamer")
+            };
             newMover.personality = GetPersonalityText(newMover, userD);
             if (userD.ContainsKey("code"))
             {
