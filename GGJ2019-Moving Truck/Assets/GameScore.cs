@@ -23,7 +23,7 @@ public class GameScore : MonoBehaviour
     {
         moverName.text = queue.mover.moverName;
         personality.text = queue.mover.personality;
-        string specialitemstring = "";
+        string specialitemstring = queue.mover.moverName + "'s Favourite Things:\n";
         foreach (string text in queue.mover.specialItems)
         {
             specialitemstring += text + "\n";

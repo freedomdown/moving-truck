@@ -60,7 +60,7 @@ public class BioReader : MonoBehaviour
                     newMover.joyValues.Add(itemEntry.Key, value);
                     if (itemDetails.ContainsKey("description"))
                     {
-                        newMover.specialItems.Add(itemEntry.Key + ": " + (string)itemDetails["description"]);
+                        newMover.specialItems.Add(char.ToUpper(itemEntry.Key[0]) + itemEntry.Key.Substring(1) + ": " + (string)itemDetails["description"]);
                     }
                 }
             }
