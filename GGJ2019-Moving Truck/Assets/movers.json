@@ -644,6 +644,2910 @@
             "second": "Clothes",
             "third": "Cooking pans/equipment"
         }
+    },
+    {
+        "name": "Ydde",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 70,
+                "description": "Most useful"
+            },
+            "shelves": {
+                "value": 25
+            },
+            "dresser": {
+                "value": 30
+            },
+            "art": {
+                "value": 5
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value": 60,
+                "description": "Sleeping"
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 100,
+                "description": "Work"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 40
+            },
+            "collectible": {
+                "value": 70,
+                "description": "Too much money spent on the collectibles =D"
+            },
+            "headset": {
+                "value": 60
+            },
+            "plush": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "Books",
+            "second": "",
+            "third": ""
+        }
+    },
+    {
+        "name": "Jules",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": false,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 0
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 30
+            },
+            "dresser": {
+                "value": 15
+            },
+            "art": {
+                "value": 20
+            },
+            "sidetable": {
+                "value": 25,
+                "description": "Place to put all my snacks and dirty dishes"
+            },
+            "bed": {
+                "value": 70,
+                "description": "Bed with pillows and big comforter - my goblin hideyhole that I relax in while watching Netflix and playing games on my laptop."
+            },
+            "sofa": {
+                "value": 0
+            },
+            "computer": {
+                "value": 100,
+                "description": "Laptop -- the center of my universe!! Home is where my laptop is."
+            },
+            "plants": {
+                "value": 100,
+                "description": "Big overflowing pothos plants. Good for mental health."
+            },
+            "console": {
+                "value": 40
+            },
+            "collectible": {
+                "value": 15,
+                "description": "My Nintendo switch. 2 green joycons and many games installed."
+            },
+            "headset": {
+                "value": 25
+            },
+            "plush": {
+                "value": 60,
+                "description": "Big Mamejiro shiba plush & giant Croconana. Helps the ol' anxiety."
+            }
+        },
+        "extras": {
+            "first": "My TV with Netflix. Must have content playing at all times",
+            "second": "Plastic rainbow drawers with all my art supplies",
+            "third": "Big bookshelf next to my bed with lots of storage for plushies, plants, food items, etc"
+        }
+    },
+    {
+        "name": "David W",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "code": "david-cat-green-pizza",
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 60,
+                "description": "Without my desk my laptop will implode and die"
+            },
+            "shelves": {
+                "value": 15
+            },
+            "dresser": {
+                "value": 40
+            },
+            "art": {
+                "value": 5
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value": 100,
+                "description": "If I don't sleep comfortably I'll implode and die"
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 70,
+                "description": "If I don't have my laptop I'll implode and die"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value":70,
+                "description": "If I can't play God of War on my PS4 I'll implode and die." 
+            },
+            "collectible": {
+                "value": 60,
+                "description": "My collection of programming books, because without I'll implode and die."
+            },
+            "headset": {
+                "value": 40
+            },
+            "plush": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "My TV",
+            "second": "My Keurig Coffee Machine",
+            "third": "My board games"
+        }
+    },
+    {
+        "name": "Joel",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 60,
+                "description": "Good chairs are expensive!"
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 60,
+                "description": "Need a desk for expensive computer"
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 30
+            },
+            "art": {
+                "value": 15
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value": 70,
+                "description": "Mattresses are expensive!"
+            },
+            "sofa": {
+                "value": 5
+            },
+            "computer": {
+                "value": 100,
+                "description": "It espensive"
+            },
+            "plants": {
+                "value": 0 
+            },
+            "console": {
+                "value": 40
+            },
+            "collectible": {
+                "value": 30
+            },
+            "headset": {
+                "value": 70,
+                "description": "Good headset"
+            },
+            "plush": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Blanket",
+            "second": "Clothing",
+            "third": ""
+        }
+    },
+    {
+        "name": "Andrew",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 70,
+                "description": "It's comfy"
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 0
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 20
+            },
+            "art": {
+                "value": 70,
+                "description": "My wife painted it"
+            },
+            "sidetable": {
+                "value": 20
+            },
+            "bed": {
+                "value": 70,
+                "description": "Beds are expensive, so I don't want to buy one."
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 70,
+                "description": "I take my laptop everywhere I go, so it needs an important place in my home."
+            },
+            "plants": {
+                "value": 5
+            },
+            "console": {
+                "value": 100,
+                "description": "I could never leave my consoles behind"
+            },
+            "collectible": {
+                "value": 30
+            },
+            "headset": {
+                "value": 20,
+                "description": "I don't mind my headphones, but they're not that important."
+            },
+            "plush": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Coffee Maker",
+            "second": "Candles",
+            "third": "Toothbrush"
+        }
+    },
+    {
+        "name": "Goldsarcasmium",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": true,
+        "organized": true,
+        "code": "goldsarcasmium-monkey-purple-spaghetti",
+        "items": {
+            "chair": {
+                "value": 5
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 60,
+                "description": "My desk is where my computer lives."
+            },
+            "shelves": {
+                "value": 25
+            },
+            "dresser": {
+                "value": 30
+            },
+            "art": {
+                "value": 15
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 100,
+                "description": "King sized bed that I share with my wife. First major furniture we bought together"
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 70,
+                "description": "My computer is the gateway to all my media access."
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "I spent a lot of my free time on my PS4."
+            },
+            "collectible": {
+                "value": 60,
+                "description": "Comics collection that I have been accumulating since I was a kid. I have a lot of Amiibo I would miss if they were gone."
+            },
+            "headset": {
+                "value": 40
+            },
+            "plush": {
+                "value": 20
+            }
+        },
+        "extras": {
+            "first": "Books",
+            "second": "TV",
+            "third": "Microwave"
+        }
+    },
+    {
+        "name": "Lei Wang",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 10
+            },
+            "desk": {
+                "value": 20
+            },
+            "shelves": {
+                "value": 20
+            },
+            "dresser": {
+                "value": 10
+            },
+            "art": {
+                "value": 20
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 70,
+                "description": "i love my own bed. bed bed bed."
+            },
+            "sofa": {
+                "value": 70,
+                "description": "sofa is very comfortable"
+            },
+            "computer": {
+                "value": 100,
+                "description": "computer is my life. i can do anything with computer."
+            },
+            "plants": {
+                "value": 55
+            },
+            "music": {
+                "value": 70,
+                "description": "can't live without music"
+            },
+            "journals": {
+                "value": 20
+            },
+            "instrument": {
+                "value": 15
+            },
+            "rug": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Posters",
+            "second": "Birthday Card",
+            "third" : "Food"
+        }
+    },
+    {
+        "name": "Resivor",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 60,
+                "description": "A desk needs a chair, it's where all the magic and work happens..."
+            },
+            "lamp": {
+                "value": 50,
+                "description": "Lamp is practical for all situations, unless there is already light in the place you are moving to."
+            },
+            "desk": {
+                "value": 70,
+                "description": "You'll need a desk to get things done."
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 30
+            },
+            "art": {
+                "value": 10
+            },
+            "sidetable": {
+                "value": 25
+            },
+            "bed": {
+                "value": 70,
+                "description": "A good night's sleep is all you need to start on another day regardless of what came before"
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 60,
+                "description": "Can you do anything without a computer these days?"
+            },
+            "plants": {
+                "value": 10
+            },
+            "console": {
+                "value": 40
+            },
+            "collectible": {
+                "value": 0
+            },
+            "headset": {
+                "value": 60,
+                "description": "Something to drawn out the wears of the day in a new place"
+            },
+            "plush": {
+                "value": 0 
+            }
+        },
+        "extras": {
+            "first": "Large Flat Screen TV",
+            "second": "A large drawer",
+            "third": "Fitness set"
+        }
+    },
+    {
+        "name": "Sean",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 20
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 70,
+                "description": "I like my desk."
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 40
+            },
+            "art": {
+                "value": 15
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 70,
+                "description": "My bed is the first bed I bought with my own money."
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 100,
+                "description": "My first computer I ever built myself"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "I love my Switch and will make sure I keep it wherever I go."
+            },
+            "collectible": {
+                "value": 60,
+                "description": "Original Sandman comics I picked up cheap at a convention."
+            },
+            "headset": {
+                "value": 30
+            },
+            "plush": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "My old dresser I have had since I was a kid",
+            "second": "My old alarm clock I've had since junior high.",
+            "third": "The swiss army knife left to me by my late grandfather"
+        }
+    },
+    {
+        "name": "Stephen",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 60,
+                "description": "I bought those chairs from a sale years ago, it's study as hell."
+            },
+            "lamp": {
+                "value": 10
+            },
+            "desk": {
+                "value": 40
+            },
+            "shelves": {
+                "value": 30
+            },
+            "dresser": {
+                "value": 25
+            },
+            "art": {
+                "value": 50,
+                "description": "I don't have many paintings, but I do have one painted by a close friend."
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 0
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 100,
+                "description": "I can't live without my Razor Blade, I use that every day. I built my desktop with my Dad before I moved out."
+            },
+            "plants": {
+                "value": 25
+            },
+            "music": {
+                "value": 30
+            },
+            "journals": {
+                "value": 10
+            },
+            "instrument": {
+                "value": 100,
+                "description": "I bought my accordion on a whim, and loved it ever since."
+            },
+            "rug": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "",
+            "second": "",
+            "third": ""
+        }
+    },
+    {
+        "name": "Craig",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 100,
+                "description": "Gotta put your butt somewhere when you're not sleeping."
+            },
+            "lamp": {
+                "value": 15
+            },
+            "desk": {
+                "value": 55,
+                "description": "It's what my computer goes on."
+            },
+            "shelves": {
+                "value": 25
+            },
+            "dresser": {
+                "value": 20
+            },
+            "art": {
+                "value": 5
+            },
+            "sidetable": {
+                "value": 25
+            },
+            "bed": {
+                "value": 100,
+                "description": "It's the minimum requirement to make your house a home. Somewhere to lay your head."
+            },
+            "sofa": {
+                "value": 30,
+                "description": "Day bed."
+            },
+            "computer": {
+                "value": 70,
+                "description": "It's what my chair points at."
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 30,
+                "description": "Good for streaming things to my non smart tv"
+            },
+            "collectible": {
+                "value": 5
+            },
+            "headset": {
+                "value": 30
+            },
+            "plush": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "TV",
+            "second": "Refrigerator",
+            "third": "Oven"
+        }
+    },
+    {
+        "name": "Big Zach Attack",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": true,
+        "organized": true,
+        "code": "zach-cheetah-orange-spaghetti",
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 20
+            },
+            "shelves": {
+                "value": 25,
+                "description": "Just some ikea shelves."
+            },
+            "dresser": {
+                "value": 30,
+                "description": "My dresser is an old trunk that belonged to my grandpa."
+            },
+            "art": {
+                "value": 70,
+                "description": "I bought a bunch of art I like at an art walk."
+            },
+            "sidetable": {
+                "value": 30
+            },
+            "bed": {
+                "value": 100,
+                "description": "I have a good bed."
+            },
+            "sofa": {
+                "value": 70,
+                "description": "I have a great sofa."
+            },
+            "computer": {
+                "value": 100,
+                "description": "Computer is life."
+            },
+            "plants": {
+                "value": 5
+            },
+            "music": {
+                "value": 10
+            },
+            "journals": {
+                "value": 20
+            },
+            "instrument": {
+                "value": 0
+            },
+            "rug": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "",
+            "second": "",
+            "third" : ""
+        }
+    },
+    {
+        "name": "KelsBels",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 15
+            },
+            "shelves": {
+                "value": 0
+            },
+            "dresser": {
+                "value": 5
+            },
+            "art": {
+                "value": 70,
+                "description": "Supernatural signed poster because SPN means a lot to me. It represents family."
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 20
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 100,
+                "description": "PC, because I make the spec for the rig myself and I'm proud of the build and it's top spec."
+            },
+            "plants": {
+                "value": 40
+            },
+            "console": {
+                "value": 30
+            },
+            "collectible": {
+                "value": 70,
+                "description": "Castiel Funko Pop, because my husband spent 2 years trying to find the exact one I wanted. Gaming Collectibles, it's like a shrine to my favourite games and tv series."
+            },
+            "headset": {
+                "value": 60,
+                "description": "Samsung TV, because it's 4K and I use it for all my entertainment. I love it."
+            },
+            "plush": {
+                "value": 70,
+                "description": "Plushy monkey called Wellington, because I've had him through a lot of tough moments."
+            }
+        },
+        "extras": {
+            "first": "Framed photos & photo albums",
+            "second": "Sofa cushions",
+            "third": "Books"
+        }
+    },
+    {
+        "name": "Ellis",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": true,
+        "organized": false,
+        "code": "ellis-platypus-periwinkle-pizzarolls",
+        "items": {
+            "chair": {
+                "value": 25
+            },
+            "lamp": {
+                "value": 10
+            },
+            "desk": {
+                "value": 25
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 10
+            },
+            "art": {
+                "value": 70,
+                "description": "Personal expression is super important to making a space feel like home! I want to like what I see when I come home or get a cup of coffee."
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 70,
+                "description": "A comfy and familar bed really makes a bedroom, I think. It's the reason the room exists, after all, and it's a good place to relax every night."
+            },
+            "sofa": {
+                "value": 30
+            },
+            "computer": {
+                "value": 100,
+                "description": "I'm a writer and game designer! My whole life and creative world is on my laptop. I'd be lost without it."
+            },
+            "plants": {
+                "value": 20,
+                "description": "Plants can make a home feel more alive. Watering them is a nice routine to get into, and it's peaceful to be responsible for something a little smaller than big stuff like a job or family."
+            },
+            "music": {
+                "value": 0
+            },
+            "journals": {
+                "value": 0
+            },
+            "instrument": {
+                "value": 100,
+                "description": "Music is really important to me! It's another outlet for creativity. If I can't play guitar and sing somewhere, it won't feel quite like home."
+            },
+            "rug": {
+                "value": 30,
+                "description": "Rugs are a great way to make a statement with your home. They can be subtle or bold, plush or thin, and make a great addition to a house full of personal taste."
+            }
+        },
+        "extras": {
+            "first": "Photographs! I love having little pictures of me and my family and friends around. I really feel like it makes a home less lonely and more lived in.",
+            "second": "Good mugs! Even if no one else will ever see them, having a mug you love can totally change the way you feel about getting up for that hot drink every morning, which can totally change your view on a house.",
+            "third" : "Soft blankets. If you can't cuddle up and get cozy, then is it really a home?"
+        }
+    },
+    {
+        "name": "Rob",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 30
+            },
+            "lamp": {
+                "value": 40,
+                "description": "Simple. Modern lamps."
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 20
+            },
+            "dresser": {
+                "value": 5
+            },
+            "art": {
+                "value": 70,
+                "description": "Painting reminds me of our trip to Europe"
+            },
+            "sidetable": {
+                "value": 30,
+                "description": "Antique side table"
+            },
+            "bed": {
+                "value": 100,
+                "description": "Super comfortable"
+            },
+            "sofa": {
+                "value": 70,
+                "description": "Modern and comfortable"
+            },
+            "computer": {
+                "value": 20
+            },
+            "plants": {
+                "value": 10
+            },
+            "music": {
+                "value": 100,
+                "description": "Music brings me happiness"
+            },
+            "journals": {
+                "value": 0
+            },
+            "instrument": {
+                "value": 0
+            },
+            "rug": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "2 modern chairs",
+            "second": "Wood burning stove",
+            "third" : "Dishes"
+        }
+    },
+    {
+        "name": "Jacques",
+        "style": "cosy",
+        "personal": false,
+        "sentimental": false,
+        "organized": false,
+        "code": "jacques-kitten-yellow-sushi",
+        "items": {
+            "chair": {
+                "value": 30
+            },
+            "lamp": {
+                "value": 15
+            },
+            "desk": {
+                "value": 40,
+                "description": "Sturdy and reliable."
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 40,
+                "description": "Will dress you up."
+            },
+            "art": {
+                "value": 15
+            },
+            "sidetable": {
+                "value": 0
+            },
+            "bed": {
+                "value": 100,
+                "description": "Mmmmm... bed."
+            },
+            "sofa": {
+                "value": 100,
+                "description": "Mmmmm... Sofa."
+            },
+            "computer": {
+                "value": 100,
+                "description": "Having a computer is like wishing for more wishes."
+            },
+            "plants": {
+                "value": 20,
+                "description": "Lean and green."
+            },
+            "music": {
+                "value": 15
+            },
+            "journals": {
+                "value": 10
+            },
+            "instrument": {
+                "value": 15
+            },
+            "rug": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "Mountain Bike",
+            "second": "Pizza",
+            "third" : "Beer"
+        }
+    },
+    {
+        "name": "Garin",
+        "style": "cosy",
+        "personal": false,
+        "sentimental": true,
+        "organized": false,
+        "code": "garin-platypus-blue-spam",
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 15
+            },
+            "desk": {
+                "value": 10
+            },
+            "shelves": {
+                "value": 100,
+                "description": "I have several shelves for my many, many books."
+            },
+            "dresser": {
+                "value": 5
+            },
+            "art": {
+                "value": 100,
+                "description": "I have a water color painting of St. Peter's Basilica that I got in Rome. It's always displayed in my living room."
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 30,
+                "description": "My bed is very comfortable. My grandfather got it for me."
+            },
+            "sofa": {
+                "value": 20
+            },
+            "computer": {
+                "value": 70,
+                "description": "I have a 17' Lenovo laptop that I use at home, work, and school."
+            },
+            "plants": {
+                "value": 0
+            },
+            "music": {
+                "value": 40
+            },
+            "journals": {
+                "value": 30,
+                "description": "I always have spare legal pads laying around as well as a Moleskin notebook in my pocket."
+            },
+            "instrument": {
+                "value": 70,
+                "description": "I play drums, piano, and ukulele."
+            },
+            "rug": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "Books (I have collections of leather bound books and signed books, as well as a collection of Bibles",
+            "second": "My TV",
+            "third" : "My record player (though I'm still saving up for better speakers"
+        }
+    },
+    {
+        "name": "Rose",
+        "style": "cosy",
+        "personal": false,
+        "sentimental": false,
+        "organized": false,
+        "code": "rose-starwhale-purple-zuccini",
+        "items": {
+            "chair": {
+                "value": 20
+            },
+            "lamp": {
+                "value": 10
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 20
+            },
+            "dresser": {
+                "value": 5
+            },
+            "art": {
+                "value": 70,
+                "description": "A collection of art that I made with my friends at art nights. I spent a lot of time on these creations with my friends."
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value":0
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 70,
+                "description": "My life is on my computer."
+            },
+            "plants": {
+                "value": 30,
+                "description": "My plants are my babies."
+            },
+            "music": {
+                "value": 40
+            },
+            "journals": {
+                "value": 100,
+                "description": "The notebook I use for writing ideas and prompts."
+            },
+            "instrument": {
+                "value": 100,
+                "description": "My MIDI controller was expensive!"
+            },
+            "rug": {
+                "value": 15
+            }
+        },
+        "extras": {
+            "first": "My sword collection",
+            "second": "My full circle wool cloak.",
+            "third" : "My 3D puzzle working cuckoo clock."
+        }
+    },
+    {
+        "name": "Rikki",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": true,
+        "organized": true,
+        "code": "rikki-giraffe-green-pizza",
+        "items": {
+            "chair": {
+                "value":15
+            },
+            "lamp": {
+                "value": 15,
+                "description": "My magic lamp turns on at the wave of a hand! So cool!"
+            },
+            "desk": {
+                "value": 25
+            },
+            "shelves": {
+                "value": 30
+            },
+            "dresser": {
+                "value": 15
+            },
+            "art": {
+                "value": 50,
+                "description": "What you put on the wall of your house defines you."
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 100,
+                "description": "Beds are important for sleeping on. I like sleep."
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 70,
+                "description": "My laptop is invaluable for work, entertainment, and life admin!"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "Video games and streaming TV are necessities!"
+            },
+            "collectible": {
+                "value": 60,
+                "description": "I love my CD collection."
+            },
+            "headset": {
+                "value": 40
+            },
+            "plush": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Running trainers",
+            "second": "Snowboard",
+            "third": "Book collection"
+        }
+    },
+    {
+        "name": "Firtina",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "code": "firtina-turtle-purple-yoghurt",
+        "items": {
+            "chair": {
+                "value": 70,
+                "description": "I only move my chair, nothing else from this list. It's a racing chair."
+            },
+            "lamp": {
+                "value": 30,
+                "description": "Lamps are useful."
+            },
+            "desk": {
+                "value": 40
+            },
+            "shelves": {
+                "value": 0
+            },
+            "dresser": {
+                "value": 10
+            },
+            "art": {
+                "value": 55,
+                "description": "I barely have any of these"
+            },
+            "sidetable": {
+                "value": 20
+            },
+            "bed": {
+                "value": 5
+            },
+            "sofa": {
+                "value": 5
+            },
+            "computer": {
+                "value": 100,
+                "description": "Computers!"
+            },
+            "plants": {
+                "value": 10
+            },
+            "console": {
+                "value": 30
+            },
+            "collectible": {
+                "value": 30
+            },
+            "headset": {
+                "value": 100,
+                "description": "Need computers"
+            },
+            "plush": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Clothes",
+            "second": "Toothbrush",
+            "third": "Skateboard"
+        }
+    },
+    {
+        "name": "Sami",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 30
+            },
+            "lamp": {
+                "value": 70,
+                "description": "Grandfather's lamp. Really good lamp. The guy was so good at buying stuff that worked."
+            },
+            "desk": {
+                "value": 20
+            },
+            "shelves": {
+                "value": 0
+            },
+            "dresser": {
+                "value": 10
+            },
+            "art": {
+                "value": 20,
+                "description": "I don't have much art I like in my flat. That chair is comfy thought."
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 15
+            },
+            "sofa": {
+                "value": 5
+            },
+            "computer": {
+                "value": 70,
+                "description": "My computer contains secrets that must be guarded. Only it knows about all the stuff I wrote as a teenager. Or draft copies of my cv from university. Or the booking reference for all that furniture I bought 5 years ago. None should be lost to time."
+            },
+            "plants": {
+                "value":100,
+                "description": "Had that plant since university. I'm amazed it hasn't died." 
+            },
+            "console": {
+                "value": 100,
+                "description": "Old consoles have high sentimental value and can't really be replaced."
+            },
+            "collectible": {
+                "value": 10
+            },
+            "headset": {
+                "value": 40,
+                "description": "Expensive to replace. Nothing special"
+            },
+            "plush": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "Mini fridge for emergency milk and cheese in the middle of the night.",
+            "second": "Cooking stuff. Especially the good knives and pans",
+            "third": "I would attempt to entice the crows on my roof with shiny things and promises of a better class of carrion."
+        }
+    },
+    {
+        "name": "Jessica",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 20
+            },
+            "lamp": {
+                "value": 30
+            },
+            "desk": {
+                "value": 40,
+                "description": "I need a big desk. After moving houses, I could not find a new L-shaped desk that didn't take up most of the space in my room. So I actually paid the fee to get my old glass desk."
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 15
+            },
+            "art": {
+                "value": 0
+            },
+            "sidetable": {
+                "value": 0
+            },
+            "bed": {
+                "value":30
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 100,
+                "description": "Probably still the desktop. It's the item that I use for work and for free time. Built by myself using different pieces found at home."
+            },
+            "plants": {
+                "value": 55
+            },
+            "music": {
+                "value": 30
+            },
+            "journals": {
+                "value": 100,
+                "description": "Notes that I've been taking about various things, diaries, notes & postcards others have given me."
+            },
+            "instrument": {
+                "value": 70
+            },
+            "rug": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "My books",
+            "second": "Video games",
+            "third" : "Photo albums"
+        }
+    },
+    {
+        "name": "Claire",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": true,
+        "organized": true,
+        "code": "claire-rabbit-rainbow-cake",
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 20,
+                "description": "I have a very good alarm clock/light that sings a song to wake me up lol"
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 20
+            },
+            "dresser": {
+                "value": 25
+            },
+            "art": {
+                "value": 100,
+                "description": "As much as I love my computer, I have some very sentimental paintings from my dad whilst he was away at sea that I love."
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value":40,
+                "description": "I really really really like sleep!!"
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 40
+            },
+            "plants": {
+                "value": 0
+            },
+            "music": {
+                "value": 50,
+                "description": "I have a flute, viola, guitar, and keyboard - music is my main hobby outside of gaming :)"
+            },
+            "journals": {
+                "value": 70,
+                "description": "I have a lot of sketchbooks that I use to doodle down ideas, notes, or dreams"
+            },
+            "instrument": {
+                "value": 100
+            },
+            "rug": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "My two house rabbits!! (Arya and Sansa)",
+            "second": "Fluffy blankets",
+            "third" : "Snackies"
+        }
+    },
+    {
+        "name": "Alan",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 55,
+                "description": "My chair is not that comfortable nor overly high quality, but it looks unique and adds a unique appeal to any room it's situated in."
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 15
+            },
+            "shelves": {
+                "value": 5
+            },
+            "dresser": {
+                "value": 15
+            },
+            "art": {
+                "value": 15
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value":100,
+                "description": "Sleep is key, though my love of my bed derives less from the mattress as it is the Egyptian cotton sheets paired with down duvet and Anthropologie luxe duvet cover."
+            },
+            "sofa": {
+                "value": 0
+            },
+            "computer": {
+                "value": 100,
+                "description": "My Surfacebook 2 is my source of bread and butter but with its GTX1060, also let's me play Diablo and Starcraft on max setting :|"
+            },
+            "plants": {
+                "value": 40,
+                "description": "Plants are both good for my health and add a sense of calm to my environment. Plus, I love the pots they are in!"
+            },
+            "music": {
+                "value": 70,
+                "description": "My Spotify year in review revealed that my ears were blessed with 67,000+ minutes of music. Enjoyment level from this music would decrease from 9/10 to 3/10 without my stereo."
+            },
+            "journals": {
+                "value": 30
+            },
+            "instrument": {
+                "value": 30
+            },
+            "rug": {
+                "value": 30,
+                "description": "My rug is versatile and can fit and look good in a bedroom, dining room, or living room. +5 for flexibility."
+            }
+        },
+        "extras": {
+            "first": "Waffles! My Brussels Griffon puppy",
+            "second": "Indonesian reclaimed team dining room set",
+            "third" :"Hand made white concrete coffee table"
+        }
+    },
+    {
+        "name": "Thea",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 5
+            },
+            "lamp": {
+                "value": 10
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 20
+            },
+            "dresser": {
+                "value": 25,
+                "description": "It's a nice dresser, just a cheap piece from Ikea and a bit busted but it works"
+            },
+            "art": {
+                "value": 70,
+                "description": "I own art that I've inherited from family and bought from artists I admire"
+            },
+            "sidetable": {
+                "value": 25
+            },
+            "bed": {
+                "value":70,
+                "description": "Sandman is my god and sleep is how I worship"
+            },
+            "sofa": {
+                "value": 60,
+                "description": "I've lived without a couch and it's not a good time."
+            },
+            "computer": {
+                "value": 100,
+                "description": "My computer is how I connect to my friends across the world and how I do most of my art."
+            },
+            "plants": {
+                "value": 30
+            },
+            "music": {
+                "value": 10
+            },
+            "journals": {
+                "value": 70,
+                "description": "My sketchbooks are records of where I've been and how far I have come."
+            },
+            "instrument": {
+                "value": 0
+            },
+            "rug": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "My books",
+            "second": "My plushie collection",
+            "third" : "My art supplies"
+        }
+    },
+    {
+        "name": "Gillian",
+        "style": "cosy",
+        "personal": false,
+        "sentimental": true,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 100,
+                "description": "The rocking chair in my son's room, which we've used for feeding, sleeping, comforting him since he was born"
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 10
+            },
+            "shelves": {
+                "value": 15
+            },
+            "dresser": {
+                "value": 30
+            },
+            "art": {
+                "value": 60
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value":30
+            },
+            "sofa": {
+                "value": 25
+            },
+            "computer": {
+                "value": 70
+            },
+            "plants": {
+                "value": 5
+            },
+            "music": {
+                "value": 15
+            },
+            "journals": {
+                "value": 40
+            },
+            "instrument": {
+                "value": 100,
+                "description": "Our piano, lots of fond memories from my own childhood and now I'm teaching my child."
+            },
+            "rug": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Collection of scifi and fantasy books my father-in-law had owned",
+            "second": "Child's favorite toys",
+            "third" : "Dining room table carved from single slab of wood"
+        }
+    },
+    {
+        "name": "Anne",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 30
+            },
+            "lamp": {
+                "value": 20
+            },
+            "desk": {
+                "value": 10
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 10
+            },
+            "art": {
+                "value": 70,
+                "description": "Potentially expensive and yet not as cumbersome to move as other items could be."
+            },
+            "sidetable": {
+                "value": 30
+            },
+            "bed": {
+                "value": 5
+            },
+            "sofa": {
+                "value": 5
+            },
+            "computer": {
+                "value": 40
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 100,
+                "description": "Again, expensive to replace and doesn't take up much space to move."
+            },
+            "collectible": {
+                "value": 100,
+                "description": "Harder to replace and easy to carry"
+            },
+            "headset": {
+                "value": 70,
+                "description": "These tend to be expensive to replace and are easy to take with you."
+            },
+            "plush": {
+                "value": 10
+            }
+        },
+        "extras": {
+            "first": "TV",
+            "second": "Sound system",
+            "third":"Clothing"
+        }
+    },
+    {
+        "name": "Lazertuna",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 60,
+                "description": "The chair is for more great naps"
+            },
+            "lamp": {
+                "value": 15
+            },
+            "desk": {
+                "value": 70,
+                "description": "This desk has seen many raid nights"
+            },
+            "shelves": {
+                "value": 40,
+                "description": "Things belong on shelves not floors"
+            },
+            "dresser": {
+                "value": 30
+            },
+            "art": {
+                "value": 0
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value": 100,
+                "description": "Beds are for great naps"
+            },
+            "sofa": {
+                "value": 30
+            },
+            "computer": {
+                "value": 30,
+                "description": "This computer has a top end graphics card and many gigs"
+            },
+            "plants": {
+                "value": 5
+            },
+            "console": {
+                "value": 100,
+                "description": "Need a switch to stay occupied between naps"
+            },
+            "collectible": {
+                "value": 5
+            },
+            "headset": {
+                "value": 10
+            },
+            "plush": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "Dog",
+            "second": "Curling Broom",
+            "third": "TV"
+        }
+    },
+    {
+        "name": "Chyenne",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": false,
+        "code": "Chyenne-Raccoon-Purple-Tea",
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 70,
+                "description": "Custom made desk with me and my mom and fits my style"
+            },
+            "shelves": {
+                "value": 40
+            },
+            "dresser": {
+                "value": 15
+            },
+            "art": {
+                "value": 70,
+                "description": "Art references & old art."
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 25,
+                "description": "I need a proper place to sleep at night."
+            },
+            "sofa": {
+                "value": 0
+            },
+            "computer": {
+                "value": 100,
+                "description": "I'm an artist & gamer. I NEED my computer."
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "It's partly how I keep in touch with friends."
+            },
+            "collectible": {
+                "value": 60,
+                "description": "I use my collectibles for art reference"
+            },
+            "headset": {
+                "value": 15
+            },
+            "plush": {
+                "value": 20
+            }
+        },
+        "extras": {
+            "first": "Computer",
+            "second": "Art",
+            "third": "Consoles"
+        }
+    },
+    {
+        "name": "Caroline",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 15
+            },
+            "desk": {
+                "value": 15
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 0
+            },
+            "art": {
+                "value": 100,
+                "description": "Large oil painting I did for a college class, a copy of Mucha's Summer 1896"
+            },
+            "sidetable": {
+                "value": 15,
+                "description": "A bed-side table my dad made for me when I was a kid"
+            },
+            "bed": {
+                "value": 5
+            },
+            "sofa": {
+                "value": 0
+            },
+            "computer": {
+                "value": 70,
+                "description": "My PC, which me and my husband built together"
+            },
+            "plants": {
+                "value": 70,
+                "description": "A Christmas cactus grown from a cutting from my Grandmother's plant"
+            },
+            "console": {
+                "value": 20
+            },
+            "collectible": {
+                "value": 40
+            },
+            "headset": {
+                "value": 40,
+                "description": "My Corsair headset, which lights up different colors."
+            },
+            "plush": {
+                "value": 100,
+                "description": "A stuffed sea turtle from my husband that goes everywhere with me."
+            }
+        },
+        "extras": {
+            "first": "A corkboard covered with pictures with friends and family, friends' art, and collectable pins",
+            "second": "A large decorative chest that I've had since I was a kid, and never really fits in anywhere, but just can't manage to get rid of.",
+            "third": "My husband's Welsh flag, from when he lived overseas."
+        }
+    },
+    {
+        "name": "Geoff",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": false,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 70,
+                "description": "I spend many hours in my chair, it's comfortable and can shift into a horizontal position for sleeping, in my line of work it needs last."
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 100,
+                "description": "My desk is a large desk that supports many monitors, with self supports instead of legs. I do a lot of gaming and research at this desk. It's home to a good amount of my technology and is like my own little world separate from the rest of my home."
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 20
+            },
+            "art": {
+                "value": 20,
+                "description": "I am very particular about my art, I enjoy baroque era art as well as more modern things. It's very reflective of my personal taste."
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 30,
+                "description": "My bed is important cause it's a bed"
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 100,
+                "description": "I game a lot and research on it. Also I built it by hand, so it's special to me."
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 40
+            },
+            "collectible": {
+                "value": 70,
+                "description": "I hold comics near and dear to my heart. They helped me discover my inner confidence, especially spider-man comics"
+            },
+            "headset": {
+                "value": 20
+            },
+            "plush": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "TV",
+            "second": "Painting set/miniatures",
+            "third": "Board games"
+        }
+    },
+    {
+        "name": "Jesse",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 40
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 15
+            },
+            "shelves": {
+                "value": 5
+            },
+            "dresser": {
+                "value": 100,
+                "description": "Large, antique dresser with 8 compartments used to store clothes, books, and electronics"
+            },
+            "art": {
+                "value": 30,
+                "description": "A handful of fandom art prints bought from local cons"
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 100,
+                "description": "A very large, old bed I bought from an auction house. Enhanced with too many blankets, pillows, and plush collectibles"
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 70,
+                "description": "A plain, but well-loved laptop with a slightly busted keyboard'"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "PS4 and a Switch nested in a sea of cables and gaming accessories"
+            },
+            "collectible": {
+                "value": 20,
+                "description": "Fandom plush, prints, figures, lunch boxes, buttons, and key chains."
+            },
+            "headset": {
+                "value": 30
+            },
+            "plush": {
+                "value": 15
+            }
+        },
+        "extras": {
+            "first": "Microwave",
+            "second": "Electronic Kettle",
+            "third": "Art Supplies (sketchbooks, pencils, pens, and markers)"
+        }
+    },
+    {
+        "name": "Leanne Reynolds",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 30
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 30
+            },
+            "shelves": {
+                "value": 15
+            },
+            "dresser": {
+                "value": 40
+            },
+            "art": {
+                "value": 60,
+                "description": "A number of art prints I have bought at conventions depicting characters I love from TV shows and games."
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 100,
+                "description": "The first real grown-up purchase I made, pretty expensive and pretty comfortable"
+            },
+            "sofa": {
+                "value": 15,
+                "description": "My sofa is both pretty and comfortable, good for curling up to watch TV"
+            },
+            "computer": {
+                "value": 70,
+                "description": "My laptop, which I use both for work and to play games. I spent a lot of time on it."
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "An Xbox One, which I use to play most of my games"
+            },
+            "collectible": {
+                "value": 60,
+                "description": "A collection of dolls and small figurines I've had since childhood"
+            },
+            "headset": {
+                "value": 10
+            },
+            "plush": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Dishes",
+            "second": "Books",
+            "third": "Photo albums"
+        }
+    },
+    {
+        "name": "Kayani",
+        "style": "cosy",
+        "personal": false,
+        "sentimental": true,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 30
+            },
+            "lamp": {
+                "value": 10
+            },
+            "desk": {
+                "value": 30,
+                "description": "My computer desk. It's the last thing I have from the house I grew up in. It's small and perfect for small spaces."
+            },
+            "shelves": {
+                "value": 20
+            },
+            "dresser": {
+                "value": 5
+            },
+            "art": {
+                "value": 20
+            },
+            "sidetable": {
+                "value": 25
+            },
+            "bed": {
+                "value":55
+            },
+            "sofa": {
+                "value": 15
+            },
+            "computer": {
+                "value": 100,
+                "description": "Desktop computer. I work from home, so I need it. It also has a couple decades worth of pictures and video on it."
+            },
+            "plants": {
+                "value": 5
+            },
+            "music": {
+                "value": 70,
+                "description": "CD collection. Movie soundtracks, Metallica, various musicals... I cannot live without my music"
+            },
+            "journals": {
+                "value": 100,
+                "description": "A couple of recipe books handwritten by my great-grandmother, and my coloring book collection"
+            },
+            "instrument": {
+                "value": 25
+            },
+            "rug": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "Cats",
+            "second": "Kitchen Table",
+            "third" :"Dishes"
+        }
+    },
+    {
+        "name": "Violet Vhenan",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": true,
+        "organized": false,
+        "code": "Violet-panda-purple-taco",
+        "items": {
+            "chair": {
+                "value": 20
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 25
+            },
+            "shelves": {
+                "value": 5
+            },
+            "dresser": {
+                "value": 30
+            },
+            "art": {
+                "value": 70,
+                "description": "My Dragon Age posters make me smile"
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 60,
+                "description": "The bed where I slept the first night of my new life with my new love"
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 100,
+                "description": "The best PC I've ever had"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "My Xbox that has let me experience new worlds for many years"
+            },
+            "collectible": {
+                "value": 70,
+                "description": "My Dragon Age books and comics let me get lost in another world"
+            },
+            "headset": {
+                "value": 30
+            },
+            "plush": {
+                "value": 15
+            }
+        },
+        "extras": {
+            "first": "Panda plushie by AdmiralBahroo",
+            "second": "",
+            "third": ""
+        }
+    },
+    {
+        "name": "Court",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": false,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 30
+            },
+            "lamp": {
+                "value": 10,
+                "description": "Wired lamp I bought at garage sale"
+            },
+            "desk": {
+                "value": 60,
+                "description": "Desk I bought at garage sale for $2 when I was 10. My neighbor helped me wheel it home"
+            },
+            "shelves": {
+                "value": 5
+            },
+            "dresser": {
+                "value": 20
+            },
+            "art": {
+                "value": 20
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 60,
+                "description": "Full size bed. Sleep is top priority."
+            },
+            "sofa": {
+                "value": 0
+            },
+            "computer": {
+                "value": 100,
+                "description": "Computer I put together... my only connection to the outside world"
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 70,
+                "description": "Most current console system (PlayStation 4)"
+            },
+            "collectible": {
+                "value": 70,
+                "description": "Collection of dragon statues I've collected over the years"
+            },
+            "headset": {
+                "value": 25
+            },
+            "plush": {
+                "value": 30
+            }
+        },
+        "extras": {
+            "first": "Family photos of parents and pets",
+            "second": "Television",
+            "third":"DVD Player"
+        }
+    },
+    {
+        "name": "Sara",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 40,
+                "description": "Chairs are good for sitting and reading/gaming/watching shows. The chair is from my mom’s house too, so it’s got memories in it."
+            },
+            "lamp": {
+                "value": 40,
+                "description": "Lamps are good for light when the sun goes down, but also how else do you read at three am without light?"
+            },
+            "desk": {
+                "value": 50,
+                "description": "A desk that is actually used as a TV stand, but it has been in my family for a long time."
+            },
+            "shelves": {
+                "value": 100,
+                "description": "Shelves are super important for keeping all your favorite books. The shelf itself isn’t important, it’s that I need a place for the books."
+            },
+            "dresser": {
+                "value": 25
+            },
+            "art": {
+                "value": 10
+            },
+            "sidetable": {
+                "value": 10
+            },
+            "bed": {
+                "value": 100,
+                "description": "It’s not that I’m attached to my bed, it’s just that I would like somewhere nice to sleep. Plus, it’s super familiar because I’ve been sleeping on it for eleven years."
+            },
+            "sofa": {
+                "value": 25
+            },
+            "computer": {
+                "value": 60,
+                "description": "I live in my computer. Not only do I use it for fun stuff like creative writing and gaming, I use it for writing school papers and completing notes for work."
+            },
+            "plants": {
+                "value": 0
+            },
+            "console": {
+                "value": 20
+            },
+            "collectible": {
+                "value": 10
+            },
+            "headset": {
+                "value": 15
+            },
+            "plush": {
+                "value": 5
+            }
+        },
+        "extras": {
+            "first": "Holiday decorations",
+            "second": "Dice",
+            "third": "Blankets"
+        }
+    },
+    {
+        "name": "Bug",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": true,
+        "organized": false,
+        "code": "bug-pug-blue-donut",
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 25,
+                "description": "A golden globe lamp that projects stars onto the walls when lit: my grandmother gave this to me and it’s super important"
+            },
+            "desk": {
+                "value": 30
+            },
+            "shelves": {
+                "value": 70,
+                "description": "Black bookcase: I own waaay too many books to not have this in my house"
+            },
+            "dresser": {
+                "value": 20
+            },
+            "art": {
+                "value": 30,
+                "description": "My collection of superhero posters and commissioned art: all these pictures make me happy and my walls less bare."
+            },
+            "sidetable": {
+                "value": 60
+            },
+            "bed": {
+                "value": 30
+            },
+            "sofa": {
+                "value": 20,
+                "description": "A futon sofa. It was the first real couch I bought!"
+            },
+            "computer": {
+                "value": 100,
+                "description": "My laptop covered in stickers. It reminds me of where I’ve been and also my entire life is on it."
+            },
+            "plants": {
+                "value": 5
+            },
+            "music": {
+                "value": 10
+            },
+            "journals": {
+                "value": 100,
+                "description": "My bullet journal: it’s got all my baking recipes in it! I can’t make pie without it."
+            },
+            "instrument": {
+                "value": 0
+            },
+            "rug": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "My fuzzy blanket",
+            "second": "My electric tea kettle",
+            "third" : "My mug collection"
+        }
+    },
+    {
+        "name": "Niko",
+        "style": "cosy",
+        "personal": false,
+        "sentimental": true,
+        "organized": true,
+        "code": "niko-cat-white-bread",
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 0
+            },
+            "art": {
+                "value": 30,
+                "description": "A large, high quality print of my favourite work of art: Carnation, Lily, Lily, Rose by John Singer Sargent"
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value":10
+            },
+            "sofa": {
+                "value": 20
+            },
+            "computer": {
+                "value": 100,
+                "description": "My desktop pc, one I've put together myself, aka my firstborn child"
+            },
+            "plants": {
+                "value": 40
+            },
+            "music": {
+                "value": 70,
+                "description": "My extensive collection of cds, cassettes and vinyls, ranging from my parents' childhood to the future"
+            },
+            "journals": {
+                "value": 100,
+                "description": "I'm a writer and I have many notebooks and pieces of paper with important thoughts on them"
+            },
+            "instrument": {
+                "value": 70,
+                "description": "A (kinda shitty) guitar I bought from a flea market when I was 15, with money I'd been saving for something else"
+            },
+            "rug": {
+                "value": 30,
+                "description": "A rug I crocheted myself from scraps of old bed sheets I'd had since I was a kid"
+            }
+        },
+        "extras": {
+            "first": "All of my too many books, but especially my copy of The Little Prince by Antoine de Saint-Exupéry and the two volumes of The Collected and Uncollected Poems of T.S. Eliot",
+            "second": "A worn-out pink unicorn plushie, perfect size for a small child to hug when they can't fall asleep",
+            "third" : "My PS2 and the first three Spyro games"
+        }
+    },
+    {
+        "name": "Mesi",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 0
+            },
+            "lamp": {
+                "value": 25,
+                "description": "a good lamp, every artist needs that"
+            },
+            "desk": {
+                "value": 20
+            },
+            "shelves": {
+                "value": 15
+            },
+            "dresser": {
+                "value": 5
+            },
+            "art": {
+                "value": 100,
+                "description": "vast majority of the art I have are either gifts from people I care about (and often originals) or my own art, which shows a visual presentation of my progress"
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 0
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 100,
+                "description": "the PC is a powerful thing we custom built with my good friend, it literally was created to fit my gaming and art needs"
+            },
+            "plants": {
+                "value": 70,
+                "description": "my plants are the brave and strong survivors that lived through my scatterbrained care and flourished"
+            },
+            "console": {
+                "value": 70,
+                "description": "Playstation 4 is fun, but my old yet still functional Super Nintendo is the real nostalgic gem"
+            },
+            "collectible": {
+                "value": 30
+            },
+            "headset": {
+                "value": 30
+            },
+            "plush": {
+                "value": 30
+            }
+        },
+        "extras": {
+            "first": "black&gold candleholder inherited from grandfather",
+            "second": "cutlery (new iridescent set, old set inherited from grandma)",
+            "third":"bedsheets"
+        }
+    },
+    {
+        "name": "Wren",
+        "style": "gamer",
+        "personal": true,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 20,
+                "description": "I like this desk set-up, do I have to change it?"
+            },
+            "shelves": {
+                "value": 5
+            },
+            "dresser": {
+                "value": 30
+            },
+            "art": {
+                "value": 100,
+                "description": "The print that always reminds me of rain"
+            },
+            "sidetable": {
+                "value": 0
+            },
+            "bed": {
+                "value": 40
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 60,
+                "description": "The computer I do all my work on"
+            },
+            "plants": {
+                "value": 10
+            },
+            "console": {
+                "value": 40,
+                "description": "The console that maintains my sanity"
+            },
+            "collectible": {
+                "value": 60,
+                "description": "The statue I stole from my little brother"
+            },
+            "headset": {
+                "value": 20
+            },
+            "plush": {
+                "value": 100,
+                "description": "The teddy bear I was given at birth"
+            }
+        },
+        "extras": {
+            "first": "Photo of my family",
+            "second": "My pillow",
+            "third": "My camera"
+        }
+    },
+    {
+        "name": "Srah",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 5
+            },
+            "lamp": {
+                "value": 100,
+                "description": "A custom mushroom log lamp that my mother remembered I admired."
+            },
+            "desk": {
+                "value": 20
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 10
+            },
+            "art": {
+                "value": 70,
+                "description": "An oil painting by my grandfather."
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value": 5
+            },
+            "sofa": {
+                "value": 5
+            },
+            "computer": {
+                "value": 20
+            },
+            "plants": {
+                "value": 20
+            },
+            "console": {
+                "value":100,
+                "description": "My PS4. I bought it for Kingdom Hearts 3... five years ago."
+            },
+            "collectible": {
+                "value": 70,
+                "description": "A customized Coke bottle with the name of my D&D character. A figurine of Gendou from Neon Genesis Evangelion. Almost impossible to find."
+            },
+            "headset": {
+                "value": 20
+            },
+            "plush": {
+                "value": 40,
+                "description": "Ugly Cat: a fat old plushy who got me through some hard times."
+            }
+        },
+        "extras": {
+            "first": "My ukulele.",
+            "second": "My knitting supplies.",
+            "third":"My electric kettle."
+        }
+    },
+    {
+        "name": "Quinn",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": true,
+        "organized": false,
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 0
+            },
+            "desk": {
+                "value": 15
+            },
+            "shelves": {
+                "value": 10
+            },
+            "dresser": {
+                "value": 0
+            },
+            "art": {
+                "value": 100,
+                "description": "My partner and I always buy art prints at conventions, so each print is a memory of a trip together"
+            },
+            "sidetable": {
+                "value": 5
+            },
+            "bed": {
+                "value": 20
+            },
+            "sofa": {
+                "value": 10
+            },
+            "computer": {
+                "value": 70,
+                "description": "Built it myself, this computer is the means by which I game, write, work, and contact friends"
+            },
+            "plants": {
+                "value": 70,
+                "description": "Plants add life and color to the house"
+            },
+            "console": {
+                "value": 20
+            },
+            "collectible": {
+                "value": 40
+            },
+            "headset": {
+                "value": 40,
+                "description": "Headset: a gift from a friend so we can play games together no matter how far apart we are"
+            },
+            "plush": {
+                "value": 100,
+                "description": "One of my oldest friends is a plush from childhood, who sits by my computer while I work"
+            }
+        },
+        "extras": {
+            "first": "",
+            "second": "",
+            "third": ""
+        }
+    },
+    {
+        "name": "Annalisa",
+        "style": "gamer",
+        "personal": false,
+        "sentimental": true,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 10
+            },
+            "lamp": {
+                "value": 15
+            },
+            "desk": {
+                "value": 0
+            },
+            "shelves": {
+                "value": 0
+            },
+            "dresser": {
+                "value": 60,
+                "description": "It's a simple white dresser with four white drawer - me and my friends decorated one each with paint. Each drawer very much represent the personalities of my friends, and reminds me of the afternoons spent doing nothing and having such dumb fun. "
+            },
+            "art": {
+                "value": 70,
+                "description": "A pretty bad replica of Monet's Waterlilies my dad gave me when I was a kid. Still have no idea where he got it from, but it's pretty so I always hang it in my room. "
+            },
+            "sidetable": {
+                "value": 50,
+                "description": "My grandmother antique sidetable - a gigantic wood and glass beast, super heavy and hard to move. But it's beautiful, so we always kept it. "
+            },
+            "bed": {
+                "value": 5
+            },
+            "sofa": {
+                "value": 55,
+                "description": "My first ever sofa! Never had one in my first house (didn't have a proper living room at all for that matters). It's a simple beige Ikea sofa, but as we say in Italy, il primo non si scorda mai (*you never forget your first)"
+            },
+            "computer": {
+                "value": 40
+            },
+            "plants": {
+                "value": 15
+            },
+            "console": {
+                "value": 60,
+                "description": "My ps4, ps3 and xbox360. I always promise myself to sell the old ones so I can have some more space, but I always end up keeping them. What if I want to replay old games?? "
+            },
+            "collectible": {
+                "value": 30
+            },
+            "headset": {
+                "value": 30
+            },
+            "plush": {
+                "value": 70,
+                "description": "I have several stuffed animal I couldn't get rid of the first time I moved. One it's a pretty big teddy bear I glammed up with cheap lipstick when I was little, and the other is a plushy doll that I've had since birth. "
+            }
+        },
+        "extras": {
+            "first": "",
+            "second": "",
+            "third": ""
+        }
+    },
+    {
+        "name": "Laura",
+        "style": "cosy",
+        "personal": true,
+        "sentimental": false,
+        "organized": true,
+        "items": {
+            "chair": {
+                "value": 15
+            },
+            "lamp": {
+                "value": 5
+            },
+            "desk": {
+                "value": 5
+            },
+            "shelves": {
+                "value": 25
+            },
+            "dresser": {
+                "value": 15
+            },
+            "art": {
+                "value": 30
+            },
+            "sidetable": {
+                "value": 15
+            },
+            "bed": {
+                "value": 100
+            },
+            "sofa": {
+                "value": 100
+            },
+            "computer": {
+                "value": 100
+            },
+            "plants": {
+                "value": 20
+            },
+            "music": {
+                "value": 40
+            },
+            "journals": {
+                "value": 40
+            },
+            "instrument": {
+                "value": 0
+            },
+            "rug": {
+                "value": 0
+            }
+        },
+        "extras": {
+            "first": "",
+            "second": "",
+            "third" :""
+        }
     }
 ]
 }
